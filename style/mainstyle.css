@@ -1,0 +1,99 @@
+/*----------------HEADER------------------*/
+
+header {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 100px;
+    background: rgba(78, 22, 158, 0.9);
+	z-index: 9999;
+}
+
+.header-list-menu {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-left: 50px;
+	align-items: center;
+	
+}
+
+.header-list-menu li {
+	display: flex;
+	flex-direction: column;
+	justify-content:  center;
+	text-align: center;
+	width: 150px;
+	height: 100%;
+}
+
+.header-phonenumber {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-right: 50px;
+}
+
+.header-phonenumber li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 350px;
+	height: 100%;
+}
+
+.header-list-menu  a,
+.header-phonenumber a {
+	color: white;
+	font-family: "Ubuntu Italic";
+}
+
+
+/*----------------MAIN------------------*/
+
+main {
+	width: 100%;
+}
+
+
+/*------------------SECTION #section-main-------------------*/
+
+#section-main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background-image: url(../design/img_pack/main_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:0 100% ;
+	filter: contrast(2.3);
+	filter: brightness(1);
+
+}
+
+#section-main h1 {
+	margin-top: -205px;
+	color: white;
+	font-size: 65px;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Ubuntu Italic";
+}
+
+#section-main p {
+	width: 1000px;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+}
+
+
+
+
