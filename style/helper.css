@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Kurale";
+    src: url("../resources/fonts/Kurale/Kurale-Regular.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Ubuntu";
+    src: url("../resources/fonts/Ubuntu/Ubuntu-Regular.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Ubuntu Bold";
+    src: url("../resources/fonts/Ubuntu/Ubuntu-Bold.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Ubuntu Italic";
+    src: url("../resources/fonts/Ubuntu/Ubuntu-Italic.ttf") format("ttf");
+}
