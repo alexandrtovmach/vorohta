@@ -49,7 +49,8 @@ header {
 .header-list-menu  a,
 .header-phonenumber a {
 	color: white;
-	font-family: "Ubuntu Italic";
+	font-family: "Ubuntu";
+	font-style: italic;
 }
 
 
@@ -84,7 +85,8 @@ main {
 	font-size: 65px;
 	text-align: center;
 	font-weight: bold;
-	font-family: "Ubuntu Italic";
+	font-family: "Ubuntu";
+	font-style: italic;
 }
 
 #section-main p {
