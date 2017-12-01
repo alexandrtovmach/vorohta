@@ -9,9 +9,13 @@
         <title>Тур де Львів: Гуцульський новий рік</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Kurale|Ubuntu:400,400i,700&amp;subset=cyrillic-ext" rel="stylesheet">
         <link rel="stylesheet" href="./style/reset.css">
         <link rel="stylesheet" href="./style/helper.css">
         <link rel="stylesheet" href="./style/mainstyle.css">
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -19,22 +23,109 @@
         <![endif]-->
 
         <header>
-            <ul class='header-list-menu'>
-                <li></li>
-                <li><a href="#">КАТАЛОГ</a></li>
-                <li><a href="#">ПРО НАС</a></li>
-                <li><a href="#">ВІДГУКИ</a></li>
-            </ul>
-            <ul class='header-phonenumber'>
-                <li><a href="">ЗАМОВИТИ 38 096 11 11 11</a></li>
-            </ul>
+            <div class='header-list-menu'>
+                <div></div>
+                <a href="https://css-tricks.com/almanac/properties/f/filter/">КАТАЛОГ</a>
+                <a href="#">ПРО НАС</a>
+                <a href="#">ВІДГУКИ</a>
+            </div>
+                <p class='header-phoneNumber'>ЗАМОВИТИ 38 096 1121111</p>
+            <script>
+                $('a').mouseover(function(event){
+                    var target = event.target;
+
+                    $(target).css('background','white').css('color','#FD9100');
+                })
+
+                $('a').mouseout(function(event){
+                    var target = event.target;
+
+                    $(target).css('background','').css('color','');
+                })
+            </script>
+
+                
+
         </header>
 
         <main>
-            <section id="section-main">
-                <h1>"ГУЦУЛЬСКИЙ НОВИЙ РІК"</h1>
+            <section class="section-main">
+                <h1>"Гуцульский Новий Рік"</h1>
                 <p>Підготовка до зустрічі Нового року починалася задовго до розливу. У храмових господарствах відгодовували жертовних биків і птахів, запасалися маслом і ароматичними смолами. Жерці розраховували день прибуття води, і напередодні призначеної дати народ збирався на березі й радо вітав вали, які йшли з півдня на північ. Попереду стояли жерці храмів, усюди люди радісно зустрічали життєдайні води. У день розливу  </p>
             </section>
+
+            <section class='section-promise'>
+                <div class='snowflakes-area'></div>
+                <h2 class='title'>Обіцяємо Вам:</h2>
+                <ul>
+                    <li><div><img src="design/img_pack/icons/tickets.svg" alt=""></div><p>Класний відпочинок</p></li>
+                    <li><div><img src="design/img_pack/icons/tickets.svg" alt=""></div><p>Класний відпочинок</p></li>
+                    <li><div><img src="design/img_pack/icons/tickets.svg" alt=""></div><p>Класний відпочинок</p></li>
+                    <li><div><img src="design/img_pack/icons/map-of-roads.svg" alt=""></div><P>Нові цікаві місця</P></li>
+                    <li><div><img src="design/img_pack/icons/map-of-roads.svg" alt=""></div><P>Нові цікаві місця</P></li>
+                    <li><div><img src="design/img_pack/icons/map-of-roads.svg" alt=""></div><P>Нові цікаві місця</P></li>
+                </ul>
+            </section>
+
+            <section class='section-dates'>
+
+            </section>
+
+            <section class='what-included'>
+                <h2>Що включено?</h2>
+                <ul>
+                    <li><div><img src="design/img_pack/icons/tickets.svg" alt=""></div><p>Класний відпочинок</p></li>
+                    <li><div><img src="design/img_pack/icons/tickets.svg" alt=""></div><p>Класний відпочинок</p></li>
+                    <li><div><img src="design/img_pack/icons/tickets.svg" alt=""></div><p>Класний відпочинок</p></li>
+                    <li><div><img src="design/img_pack/icons/map-of-roads.svg" alt=""></div><P>Нові цікаві місця</P></li>
+                    <li><div><img src="design/img_pack/icons/map-of-roads.svg" alt=""></div><P>Нові цікаві місця</P></li>
+                    <li><div><img src="design/img_pack/icons/map-of-roads.svg" alt=""></div><P>Нові цікаві місця</P></li>
+                    <li><div><img src="design/img_pack/icons/tickets.svg" alt=""></div><p>Класний відпочинок</p></li>
+                    <li><div><img src="design/img_pack/icons/tickets.svg" alt=""></div><p>Класний відпочинок</p></li>
+                    <li><div><img src="design/img_pack/icons/tickets.svg" alt=""></div><p>Класний відпочинок</p></li>
+                    <li><div><img src="design/img_pack/icons/map-of-roads.svg" alt=""></div><P>Нові цікаві місця</P></li>
+                    <li><div><img src="design/img_pack/icons/map-of-roads.svg" alt=""></div><P>Нові цікаві місця</P></li>
+                    <li><div><img src="design/img_pack/icons/map-of-roads.svg" alt=""></div><P>Нові цікаві місця</P></li>
+                </ul>
+            </section>
+
+
+            <section class='daily-program' >
+                <h2>ДЕНЬ 1</h2>
+                <ul>
+                    <li>
+                        <div id="img"></div>
+                        <h3>Зустріч на вокзалі Ужгорода</h3>
+                        <p>Эта молодая пара решила соблюсти традицию первой встречи жениха и невесты. Жених в нетерпении ждет свою суженную, а когда оборачивается то…не может поверить своим глазам. Вы должны сами увидеть это  волнующий момент!</p>
+                    </li>
+                    <li>
+                        <div id="img"></div>
+                        <h3>Зустріч на вокзалі Ужгорода</h3>
+                        <p>Эта молодая пара решила соблюсти традицию первой встречи жениха и невесты. Жених в нетерпении ждет свою суженную, а когда оборачивается то…не может поверить своим глазам. Вы должны сами увидеть это  волнующий момент!</p>
+                    </li>
+                    <li>
+                        <div id="img"></div>
+                        <h3>Зустріч на вокзалі Ужгорода</h3>
+                        <p>Эта молодая пара решила соблюсти традицию первой встречи жениха и невесты. Жених в нетерпении ждет свою суженную, а когда оборачивается то…не может поверить своим глазам. Вы должны сами увидеть это  волнующий момент!</p>
+                    </li>
+                    <li>
+                        <div id="img"></div>
+                        <h3>Зустріч на вокзалі Ужгорода</h3>
+                        <p>Эта молодая пара решила соблюсти традицию первой встречи жениха и невесты. Жених в нетерпении ждет свою суженную, а когда оборачивается то…не может поверить своим глазам. Вы должны сами увидеть это  волнующий момент!</p>
+                    </li>
+                    <li>
+                        <div id="img"></div>
+                        <h3>Зустріч на вокзалі Ужгорода</h3>
+                        <p>Эта молодая пара решила соблюсти традицию первой встречи жениха и невесты. Жених в нетерпении ждет свою суженную, а когда оборачивается то…не может поверить своим глазам. Вы должны сами увидеть это  волнующий момент!</p>
+                    </li>
+                </ul>
+                <div class='infoBlock'>
+                    
+                    
+                </div>
+            </section>
+
+
         </main>
 
     </body>
