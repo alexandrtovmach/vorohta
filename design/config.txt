@@ -1,1 +1,3 @@
-https://colorscheme.ru/#0V327w0vKFfFf
+orange: #FDA600
+violet: #5B07B2
+green : #12C254
