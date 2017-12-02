@@ -144,13 +144,70 @@ main img {
 	text-align: center;
 }
 
+.keep-in-touch-button {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+	bottom: 0;
+	right: 50px;
+	min-width: 300px;
+	overflow: hidden;
+}
+
+.semi-round {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-items: center;
+	background-color: #5B07B2;
+	width: 200px;
+	height: 200px;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	align-self: center;
+	margin-bottom: -100px;
+	transition: 0.2s;
+}
+
+.semi-round i {
+	position: absolute;
+	top: 15px;
+	left: 70px;
+	font-size: 80px;
+}
+
+.spred-block {
+	width: 400px;
+	height: 300px;
+	border-top-left-radius: 30%;
+	border-top-right-radius: 30%;
+}
+
+.spread-it {
+	height: 250px;
+	border-radius: 50px;
+	width: 500px;
+}
+
+.semi-round p {
+	opacity: 0;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 65px;
+	right: 40px;
+	font-family: "Ubuntu";
+	font-size: 40px;
+}
+
 
 
 /*-------------------section promise---------------------*/
 
 .section-promise {
 	width: 100%;
-	height: 480px;
 	background-color: rgb(253, 166, 0);
 }
 
@@ -169,11 +226,12 @@ main img {
 .section-promise ul {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-wrap: wrap;
 	align-self: center;
 	margin: auto;
-	width: 90%;
+	width: 80%;
+	padding-bottom: 100px;
 }
 
 .section-promise ul li {
@@ -196,9 +254,8 @@ main img {
 	height: 100%;
 }
 
-.section-promise ul li img {
-	width: 50px;
-	fill: white;
+.section-promise ul li div i {
+	font-size: 50px;
 }
 
 .section-promise ul li p {
@@ -230,7 +287,7 @@ main img {
 	flex-direction: column;
 	align-items: center;
 	width: 100%;
-	padding: 70px 0;
+	padding-bottom: 100px;
 }
 
 .what-included h2 {
@@ -239,19 +296,20 @@ main img {
 	font-family: "Kurale";
 	font-weight: bold;
 	font-size: 55px;
-	width: 90%;
+	width: 80%;
 	background-color: rgb(39, 7, 85);
-	padding:35px 0  ;
+	padding:35px 0 ;
+	margin-top: 50px;
 }
 
 .what-included ul {
 	background-color: rgb(79, 15, 172);
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-wrap: wrap;
-	width: 90%;
-	padding-bottom: 40px;
+	width: 80%;
+	padding: 50px 0 100px;
 }
 
 .what-included ul li {
@@ -267,14 +325,14 @@ main img {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	width: 30%;
+	align-items: center;
+	width: 20%;
+	height: 100%;
 }
 
-.what-included ul li img {
-	align-self: flex-end;
-	margin-right: 20px;
-	width: 50px;
-	stroke: red;
+.what-included ul li div i {
+	font-size: 50px;
+	color: white;
 }
 
 .what-included ul li p {
@@ -375,8 +433,8 @@ main img {
 .daily-program ul li p {
 	font-family: "Ubuntu";
 	padding: 0 10px 25px;
-	font-size: 15px;
-	text-align: justify;
+	font-size: 16px;
+	text-align: center;
 }
 
 .daily-block-footer {
@@ -392,9 +450,9 @@ main img {
 
 .daily-block-footer img {
 	position: absolute;
-	top: -5px;
+	top: -107px;
 	right: 0;
-	width: 75px;
+	width: 100px;
 }
 
 
@@ -409,7 +467,8 @@ main img {
 .daily-block-footer p {
 	width: 85%;
 	text-align: center;
-	font-size: 16px;
+	font-size: 30px;
+	padding: 10px 0;
 	font-family: "Kurale";
 	align-self: center;
 }
@@ -419,7 +478,7 @@ main img {
 
 .Order-button {
 	width: 100%;
-	height: 120px;
+	height: 200px;
 	background-color: rgb(79, 15, 172);
 	display: flex;
 	flex-direction: row;
@@ -432,16 +491,13 @@ main img {
 	flex-direction: row;
 	justify-content: space-between;
 	width: 280px;
+	height: 60px;
 	padding: 10px 20px;
 	background-color: green;
 	margin-left: 200px;
 	border: 2px solid white;
 }
 
-.Order-button a img {
-	margin:0 15px;
-	width: 50px;
-}
 
 .Order-button a  p {
 	width: 250px;
@@ -450,6 +506,20 @@ main img {
 	color: white;
 	text-align: center;
 	font-size: 25px;
+}
+
+.Order-button a div {
+	width: 25%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.Order-button a div i {
+	color: white;
+	font-size: 50px;
 }
 
 .order-phoneNumber {
