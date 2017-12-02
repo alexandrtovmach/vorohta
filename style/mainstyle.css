@@ -52,7 +52,6 @@ header {
 	color: white;
 	font-family: "Kurale";
 	margin-right: 100px;
-	font-weight: bold;
 	font-size: 22px;
 	height: 100%;
 	word-spacing: 10px;
@@ -68,21 +67,7 @@ main {
 
 
 /*------------------SECTION #section-main-------------------*/
-section {
-	position: relative;
-}
 
-section > * {
-	z-index: 1;
-}
-
-.black-wrap {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0,0,0,0.5);
-	z-index: 0;
-}
 
 .section-main {
 	display: flex;
@@ -95,6 +80,13 @@ section > * {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position:0 100% ;
+}
+
+#logo-image {
+	width:200px;
+	height: 250px;
+	align-self: center;
+	margin: 50px 0;
 }
 
 .section-main h1 {
@@ -155,8 +147,10 @@ section > * {
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	width: 33%;
+	width: 25%;
+	margin: 10px;
 	height: 90px;
+	padding-left:45px;
 }
 
 .section-promise ul li div {
@@ -170,6 +164,7 @@ section > * {
 
 .section-promise ul li img {
 	width: 50px;
+	fill: white;
 }
 
 .section-promise ul li p {
@@ -222,7 +217,7 @@ section > * {
 	justify-content: space-around;
 	flex-wrap: wrap;
 	width: 90%;
-	padding: 55px 0;
+	padding-bottom: 40px;
 }
 
 .what-included ul li {
@@ -245,6 +240,7 @@ section > * {
 	align-self: flex-end;
 	margin-right: 20px;
 	width: 50px;
+	stroke: red;
 }
 
 .what-included ul li p {
@@ -262,17 +258,16 @@ section > * {
 
 /*--------------daily-program------------*/
 
-
 .daily-program {
-	background: url(../design/img_pack/main_bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: 10% 20%;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	background-position: 50%;
-	padding-bottom: 50px;
+	padding: 55px 0;
 }
+
 
 .snowing-block {
 	width: 100%;
@@ -280,10 +275,10 @@ section > * {
 }
 
 .daily-program h2 {
-	margin: 60px 0;
+	margin: 20px 0;
 	text-align: center;
 	font-family: "Kurale";
-	font-size: 40px;
+	font-size: 50px;
 	color: white;
 }
 
@@ -297,11 +292,11 @@ section > * {
 	align-items: center;
 }
 
+
 .daily-program  .circle-time {
 	position: absolute;
 	top: -30px;
 	left: -30px;
-	background-color: #FF6C00;
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
@@ -309,12 +304,14 @@ section > * {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-color: #FFA700;
 }
 
 .daily-program  .circle-time span {
 	font-size: 25px;
 	font-family: "Kurale";
 	font-weight: bold;
+	color: white;
 }
 
 .daily-program ul li {
@@ -324,12 +321,12 @@ section > * {
 	margin: 50px;
 }
 
-.daily-program #img {
+
+.daily-program ul li #img {
 	background-image: url(../design/img_pack/p44YO1QlZ3k.jpg);
 	background-size: cover;
-	background-repeat: no-repeat;
 	width:100%;
-	height: 180px;
+	height: 183px;
 }
 
 .daily-program ul li h3 {
@@ -340,6 +337,7 @@ section > * {
 	margin: 18px 0;
 }
 
+
 .daily-program ul li p {
 	font-family: "Ubuntu";
 	padding: 0 10px 25px;
@@ -348,6 +346,7 @@ section > * {
 }
 
 .daily-block-footer {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	width: 80%;
@@ -355,6 +354,13 @@ section > * {
 	border-radius: 40px;
 	align-self: center;
 	padding: 20px 0;
+}
+
+.daily-block-footer img {
+	position: absolute;
+	top: -5px;
+	right: 0;
+	width: 75px;
 }
 
 
@@ -374,6 +380,7 @@ section > * {
 	align-self: center;
 }
 
+
 /*--------------------Order-button----------------*/
 
 .Order-button {
@@ -386,39 +393,37 @@ section > * {
 	align-items: center;
 }
 
-.Order-button div {
+.Order-button a {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	border: 1px solid black;
 	width: 280px;
 	padding: 10px 20px;
 	background-color: green;
 	margin-left: 200px;
+	border: 2px solid white;
 }
 
-.Order-button div img {
-	margin-right: 10px;
+.Order-button a img {
+	margin:0 15px;
 	width: 50px;
 }
 
-.Order-button div  p {
+.Order-button a  p {
 	width: 250px;
 	align-self: center;
 	font-family: "Ubuntu Bold";
-	font-weight: bold;
 	color: white;
 	text-align: center;
-	font-size: 28px;
+	font-size: 25px;
 }
 
 .order-phoneNumber {
 	font-family: "Kurale";
-	font-size: 30px;
+	font-size: 35px;
 	line-height: 20px;
 	margin-right: 200px;
 	color: white;
-	font-weight: 500;
 	text-align: center;
 }
 
