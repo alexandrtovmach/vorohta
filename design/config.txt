@@ -1,3 +1,10 @@
 orange: #FDA600
 violet: #5B07B2
 green : #12C254
+
+//breakpoints
+$full-hd-screen: 1650px;
+$hd-screen: 1280px;
+$large-screen: 1024px;
+$medium-screen: 768px;
+$small-screen: 480px;
