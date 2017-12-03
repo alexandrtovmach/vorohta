@@ -146,18 +146,20 @@ main img {
 	background-color: rgb(253, 166, 0);
 }
 
+/*--------snow animation for .section-promise--------- */
+
 .snowflakes-area-top {
 	height: 100px;
 	background-image:  url('../design/img_pack/clipart/snowflakes_white_horizontal_bg.png');
 	animation: snowflakes 15s infinite linear;
-	box-shadow: inset 0 -40px 40px -20px rgb(253, 166, 0);
+	box-shadow: inset 0 -20px 20px -20px rgb(253, 166, 0);
 }
 
 .snowflakes-area-bottom {
 	height: 100px;
 	background-image:  url('../design/img_pack/clipart/snowflakes_white_horizontal_bg.png');
 	animation: snowflakes 15s infinite linear;
-	box-shadow: inset -20px 20px  20px 0    rgb(253, 166, 0);
+	box-shadow: inset 0 1em  1em 1em rgb(253, 166, 0);
 }
 
 .title {
@@ -450,7 +452,7 @@ main img {
 	flex-wrap: wrap;
 	width: 100%;
 	padding-top: 30px;
-	padding-bottom:250px;
+	padding-bottom:385px;
 	background-image: url('../design/img_pack/clipart/christmas_tree_bg_clipart.png');
 	background-size: 100% auto;
 	background-position: bottom;
@@ -611,7 +613,7 @@ main img {
 
 
 .daily-program ul li #img {
-	background-image: url(../design/img_pack/p44YO1QlZ3k.jpg);
+	background-image: url(../design/img_pack/domici.jpg);
 	background-size: cover;
 	width:100%;
 	height: 183px;
@@ -640,7 +642,6 @@ main img {
 	width: 90%;
 	background-color: rgb(255, 167, 0);
 	align-self: center;
-	padding: 20px 0;
 	margin: 50px 0;
 		z-index: 1;
 }
@@ -658,16 +659,26 @@ main img {
 	font-size: 40px;
 	text-align: left;
 	margin-left: 50px;
-	width: 30%;
+	margin-top:-40px;
+	width: 21%;
 }
 
 .daily-block-footer p {
 	width: 85%;
 	text-align: center;
 	font-size: 30px;
-	padding: 10px 0;
+	padding: 5px 0 25px;
 	font-family: "Kurale";
 	align-self: center;
+}
+
+/*--------snow animation for .daily-block-footer --------- */
+
+.snowflakes-area-top {
+	height: 80px;
+	background-image:  url('../design/img_pack/clipart/snowflakes_white_horizontal_bg.png');
+	animation: snowflakes 15s infinite linear;
+	box-shadow: inset 0 -20px 20px -20px rgb(253, 166, 0);
 }
 
 </*--------------------block-ornament----------------*/
@@ -802,12 +813,12 @@ main img {
 }
 
 .contacts h3 {
-	 font-family: "Ubuntu";
-	 align-self: center;
+	font-family: "Ubuntu";
+	align-self: center;
 	font-weight: bold;
 	font-size: 50px;
 	color: black;
-	padding: 50px 0;
+	margin-top: -20px;
 }
 
 .contacts ul {
@@ -817,7 +828,6 @@ main img {
 	align-self: center;
 	list-style: none;
 	width: 75%;
-	margin-bottom: 70px;
 }
 
 .contacts ul li {
@@ -854,22 +864,25 @@ footer {
 /*--------------------section subscribe--------------*/
 
 .subscribe {
+	background:#5B07B2 ;
+	background-size: 12% auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 50px 0 90px;
+	width: 100%;
 }
 
 .subscribe h3 {
 	font-family: "Ubuntu";
 	font-weight: bold;
 	font-size: 25px;
-	padding: 0 0 50px;
+	padding: 0 0 20px;
 }
 
 .subscribe input {
 	padding: 0 20px;
+	margin: 0 0 20px ;
 	width: 250px;
 	height: 50px;
 	font-size: 15px;
@@ -882,6 +895,22 @@ footer {
 	font-size: 17px;
 	padding: 15px 30px;
 	background-color: #FDA600;
+}
+
+ .contacts-snowflakes-area-top {
+    height: 100px;
+    width: 100%;
+    background-image:  url('../design/img_pack/clipart/snowflakes_white_horizontal_bg.png');
+    animation: snowflakes 15s infinite linear;
+    box-shadow: inset 0 -20px 20px 1.2em #5B07B2;
+}
+
+.contacts-snowflakes-area-bottom {
+    height: 100px;
+        width: 100%;
+    background-image:  url('../design/img_pack/clipart/snowflakes_white_horizontal_bg.png');
+    animation: snowflakes 15s infinite linear;
+    box-shadow: inset 0 1em  1em 1em #5B07B2;
 }
 
 
