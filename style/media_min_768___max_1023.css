@@ -1,0 +1,32 @@
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+	.daily-program ul  {
+		justify-content: space-around;
+		width: 100%;
+		border: 1px solid black;
+	}
+
+	.daily-program ul li {
+		width: 40%;
+	}
+
+	.daily-program ul li p {
+		text-align: center;
+
+	}
+
+	.second-week ul li {
+		width: 40%;
+	}
+
+	.second-week ul li p {
+		text-align: center;
+	}
+
+	.Order-button a {
+		margin-left: 50px;
+	}
+
+	.order-phoneNumber {
+		margin-right: 50px;
+	}
+}

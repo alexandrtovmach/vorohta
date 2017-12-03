@@ -1,0 +1,5 @@
+@media screen and (max-width: 1650px) and (min-width: 1280px) {
+    .daily-program ul li {
+    	width: 388px;
+    }
+}
