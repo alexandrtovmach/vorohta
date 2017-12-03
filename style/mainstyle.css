@@ -857,7 +857,6 @@ footer {
 	background:#5B07B2  url('../design/img_pack/clipart/snowflakes_white_horizontal_bg.png');
 	animation: snowflakes 15s infinite linear;
     box-shadow: inset 0 0 #5B07B2;
-	background-size: 27% auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
