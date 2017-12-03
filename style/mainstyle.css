@@ -152,14 +152,14 @@ main img {
 	height: 100px;
 	background-image:  url('../design/img_pack/clipart/snowflakes_white_horizontal_bg.png');
 	animation: snowflakes 15s infinite linear;
-	box-shadow: inset 0 -20px 20px -20px rgb(253, 166, 0);
+	box-shadow: inset 0em -3em 3em -1em #FDA600;
 }
 
 .snowflakes-area-bottom {
 	height: 100px;
 	background-image:  url('../design/img_pack/clipart/snowflakes_white_horizontal_bg.png');
 	animation: snowflakes 15s infinite linear;
-	box-shadow: inset 0 1em  1em 1em rgb(253, 166, 0);
+	box-shadow: inset 0 2em 3em 1em rgb(253, 166, 0);
 }
 
 .title {
@@ -220,7 +220,6 @@ main img {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background-color: #F2F2F2;
 }
 
 .section-dates ul {
@@ -672,15 +671,6 @@ main img {
 	align-self: center;
 }
 
-/*--------snow animation for .daily-block-footer --------- */
-
-.snowflakes-area-top {
-	height: 80px;
-	background-image:  url('../design/img_pack/clipart/snowflakes_white_horizontal_bg.png');
-	animation: snowflakes 15s infinite linear;
-	box-shadow: inset 0 -20px 20px -20px rgb(253, 166, 0);
-}
-
 </*--------------------block-ornament----------------*/
 
 .second-week {
@@ -864,20 +854,23 @@ footer {
 /*--------------------section subscribe--------------*/
 
 .subscribe {
-	background:#5B07B2 ;
-	background-size: 12% auto;
+	background:#5B07B2  url('../design/img_pack/clipart/snowflakes_white_horizontal_bg.png');
+	animation: snowflakes 15s infinite linear;
+    box-shadow: inset 0 0 #5B07B2;
+	background-size: 27% auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
+	padding: 50px 0;
 }
 
 .subscribe h3 {
 	font-family: "Ubuntu";
 	font-weight: bold;
 	font-size: 25px;
-	padding: 0 0 20px;
+	margin: 50px 0;
 }
 
 .subscribe input {
@@ -895,22 +888,6 @@ footer {
 	font-size: 17px;
 	padding: 15px 30px;
 	background-color: #FDA600;
-}
-
- .contacts-snowflakes-area-top {
-    height: 100px;
-    width: 100%;
-    background-image:  url('../design/img_pack/clipart/snowflakes_white_horizontal_bg.png');
-    animation: snowflakes 15s infinite linear;
-    box-shadow: inset 0 -20px 20px 1.2em #5B07B2;
-}
-
-.contacts-snowflakes-area-bottom {
-    height: 100px;
-        width: 100%;
-    background-image:  url('../design/img_pack/clipart/snowflakes_white_horizontal_bg.png');
-    animation: snowflakes 15s infinite linear;
-    box-shadow: inset 0 1em  1em 1em #5B07B2;
 }
 
 
