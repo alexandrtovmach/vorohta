@@ -590,13 +590,15 @@ main img {
 
 .daily-program {
 	position: relative;
-	background-repeat: no-repeat;
+	/* background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 10% 20%;
+	background-position: 10% 20%; */
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	padding: 10px 0;
+	background: url('../design/img_pack/clipart/santa.png') no-repeat top right, url('../design/img_pack/clipart/tree_bg.png') no-repeat bottom left;
+	background-size: 30%;
 }
 
 .christmas-santa {
