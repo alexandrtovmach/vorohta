@@ -2,6 +2,7 @@
 
 
 header {
+	position: fixed;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -65,14 +66,6 @@ header {
 }
 
 
-
-/*----------------MAIN------------------*/
-
-main {
-	width: 100%;
-}
-
-
 /*------------------SECTION #section-main-------------------*/
 
 
@@ -82,7 +75,6 @@ main {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
 	height: 100vh;
 	background-image: url(../design/img_pack/main_bg.jpg);
 	background-size: cover;
@@ -214,7 +206,6 @@ main img {
 }
 
 .snowflakes-area {
-	width: 100%;
 	height: 100px;
 }
 
@@ -482,7 +473,6 @@ main img {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 100%;
 	padding: 0;
 	margin: 0;
 }
@@ -746,7 +736,7 @@ main img {
 .third-day .snowman {
 	position: absolute;
 	bottom: 0;
-	right: -1px;
+	right: 0px;
 	width: 21%;
 	height: 32%;
 }
