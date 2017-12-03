@@ -65,14 +65,6 @@ header {
 	word-spacing: 10px;
 }
 
-.hamburger-icon {
-	display: none;
-	font-size: 40px;
-	color: white;
-}
-
-
-
 /*------------------SECTION #section-main-------------------*/
 
 
@@ -88,6 +80,42 @@ header {
 	background-repeat: no-repeat;
 	background-position:0 85% ;
 }
+
+/*------------SUBMENU  LIST start--------------*/
+
+.hamburger-icon {
+	display: none;
+	font-size: 40px;
+	color: white;
+}
+
+.submenu {
+	display: none;
+	position: absolute;
+	width: 100%;
+	top: 100px;
+	left: 0;
+}
+
+.submenu  ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	list-style: none;
+	background-color: #FDA600;
+}
+
+.submenu  ul li {
+	padding: 10px 0;
+}
+
+.submenu  ul a {
+	padding: 10px 0;
+	font-family: "Kurale";
+	margin-left: 30px;
+}
+
+/*------------SUBMENU  LIST end--------------*/
 
 .section-main > * {
 	z-index: 0;
@@ -643,6 +671,7 @@ main img {
 
 .daily-block-footer {
 	position: relative;
+	overflow: hidden;
 	display: flex;
 	flex-direction: column;
 	width: 90%;
@@ -654,8 +683,8 @@ main img {
 
 .daily-block-footer img {
 	position: absolute;
-	top: -70px;
-	right: 0;
+	top: -60px;
+	right: 5px;
 	width: 100px;
 }
 
