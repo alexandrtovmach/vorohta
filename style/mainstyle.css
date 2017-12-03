@@ -2,6 +2,7 @@
 
 
 header {
+	position: fixed;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -65,14 +66,6 @@ header {
 }
 
 
-
-/*----------------MAIN------------------*/
-
-main {
-	width: 100%;
-}
-
-
 /*------------------SECTION #section-main-------------------*/
 
 
@@ -82,7 +75,6 @@ main {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
 	height: 100vh;
 	background-image: url(../design/img_pack/main_bg.jpg);
 	background-size: cover;
@@ -146,66 +138,6 @@ main img {
 	text-align: center;
 }
 
-.keep-in-touch-button {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	position: absolute;
-	bottom: 0;
-	right: 50px;
-	min-width: 300px;
-	overflow: hidden;
-}
-
-.semi-round {
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	align-items: center;
-	background-color: #5B07B2;
-	width: 200px;
-	height: 200px;
-	border-top-left-radius: 50%;
-	border-top-right-radius: 50%;
-	align-self: center;
-	margin-bottom: -100px;
-	transition: 0.2s;
-}
-
-.semi-round i {
-	position: absolute;
-	top: 15px;
-	left: 70px;
-	font-size: 80px;
-}
-
-.spred-block {
-	width: 400px;
-	height: 300px;
-	border-top-left-radius: 30%;
-	border-top-right-radius: 30%;
-}
-
-.spread-it {
-	height: 250px;
-	border-radius: 50px;
-	width: 500px;
-}
-
-.semi-round p {
-	opacity: 0;
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	top: 65px;
-	right: 40px;
-	font-family: "Ubuntu";
-	font-size: 40px;
-}
-
-
-
 /*-------------------section promise---------------------*/
 
 .section-promise {
@@ -214,7 +146,6 @@ main img {
 }
 
 .snowflakes-area {
-	width: 100%;
 	height: 100px;
 }
 
@@ -352,10 +283,10 @@ main img {
 .firstPart .title {
 	margin: 0;
 	width: 400px;
-	padding: 19px 0;
+	padding: 2px 0;
 	font-family: "Ubuntu";
 	font-weight: bold;
-	font-size: 45px;
+	font-size: 62px;
 	color: black;
 }
 
@@ -373,8 +304,8 @@ main img {
 	padding: 8px 0;
 	background-color: green;
 	border: 2px solid white;
-	padding: 20px 0;
-	margin: 21px 0;
+	padding: 10px 0;
+	margin: 32px 0;
 }
 
 .firstPart p {
@@ -482,10 +413,10 @@ main img {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 100%;
 	padding: 0;
 	margin: 0;
 }
+
 
 .what-included h2 {
 	color: white;
@@ -506,12 +437,13 @@ main img {
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
-<<<<<<< HEAD
 	width: 100%;
-=======
-	width: calc(100% - 10px*2);
-	padding: 10px;
->>>>>>> 380ed38c1d35e7054d7cba46e23d67653ab5c134
+	padding-bottom:250px;
+	background-image: url(../design/img_pack/clipart/christmas_tree_bg_clipart.png);
+	background-size: 100% auto;
+	background-position: bottom;
+	background-repeat: no-repeat;
+
 }
 
 .what-included ul li {
@@ -552,16 +484,7 @@ main img {
 	font-size: 23px;
 }
 
-.what-included .christmas-tree-snowman {
-	width: 100%;
-	height: 50%;
-	flex-grow: 1;
-	padding: 0;
-	margin: 0;
-}
-
 /*--------------daily-program------------*/
-
 .daily-program {
 	position: relative;
 	/* background-repeat: no-repeat;
@@ -570,19 +493,27 @@ main img {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	padding: 10px 0;
-	background: url('../design/img_pack/clipart/santa.png') no-repeat top right, url('../design/img_pack/clipart/tree_bg.png') no-repeat bottom left;
-	background-size: 30%;
+	
 }
 
-.christmas-santa {
-	position: absolute;
-	transform: rotate(6deg);
-	top: -70px;
-	right: 70px;
-	width: 24%;
-	height: 12%;
+.first-day {
+    background: url(../design/img_pack/clipart/santa.png) top right 5%, url(../design/img_pack/clipart/tree_bg.png) bottom left;
+    background-size: 33% auto;
+    background-repeat: no-repeat;
+} 
+
+.second-day {
+	background: #7F44D6 url(../design/img_pack/clipart/decoration_bg.png) top left -5%; 
+	background-repeat: no-repeat;
+	background-size: 81% 70%;
 }
+
+.third-day {
+	background: url(../design/img_pack/clipart/snowman.png) bottom right; 
+	background-repeat: no-repeat;
+	background-size: 36% 56%;
+}
+
 
 .christmas-tree {
 	position: absolute;
@@ -709,7 +640,6 @@ main img {
 	padding: 10px 0;
 	font-family: "Kurale";
 	align-self: center;
-	text-shadow: 0 0 2px black;
 }
 
 </*--------------------block-ornament----------------*/
@@ -746,7 +676,7 @@ main img {
 .third-day .snowman {
 	position: absolute;
 	bottom: 0;
-	right: -1px;
+	right: 0px;
 	width: 21%;
 	height: 32%;
 }
