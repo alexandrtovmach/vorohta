@@ -65,6 +65,13 @@ header {
 	word-spacing: 10px;
 }
 
+.hamburger-icon {
+	display: none;
+	font-size: 40px;
+	color: white;
+}
+
+
 
 /*------------------SECTION #section-main-------------------*/
 
@@ -642,7 +649,7 @@ main img {
 	background-color: rgb(255, 167, 0);
 	align-self: center;
 	margin: 50px 0;
-		z-index: 1;
+	border-radius: 25px; 
 }
 
 .daily-block-footer img {
