@@ -1,0 +1,86 @@
+@keyframes snowflakes {
+    0% {
+        background-position-y: 0;
+        
+    }
+    5% {
+        background-position-y: 10px;
+        
+    }
+    10% {
+        background-position-y: 20px;
+        
+    }
+    15% {
+        background-position-y: 30px;
+        
+    }
+    20% {
+        background-position-y: 40px;
+        
+    }
+    25% {
+        background-position-y: 50px;
+        
+    }
+    30% {
+        background-position-y: 60px;
+        
+    }
+    35% {
+        background-position-y: 70px;
+        
+    }
+    40% {
+        background-position-y: 80px;
+        
+    }
+    45% {
+        background-position-y: 90px;
+        
+    }
+    50% {
+        background-position-y: 100px;
+        
+    }
+    55% {
+        background-position-y: 110px;
+        
+    }
+    60% {
+        background-position-y: 120px;
+        
+    }
+    65% {
+        background-position-y: 130px;
+        
+    }
+    70% {
+        background-position-y: 140px;
+        
+    }
+    75% {
+        background-position-y: 150px;
+        
+    }
+    80% {
+        background-position-y: 160px;
+        
+    }
+    85% {
+        background-position-y: 170px;
+        
+    }
+    90% {
+        background-position-y: 180px;
+        
+    }
+    95% {
+        background-position-y: 190px;
+        
+    }
+    100% {
+        background-position-y: 198px;
+        
+    }
+}
