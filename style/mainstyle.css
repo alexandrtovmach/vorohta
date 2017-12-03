@@ -233,6 +233,7 @@ main img {
 	align-self: center;
 	margin: auto;
 	width: 80%;
+	height: 100%;
 	padding-bottom: 100px;
 }
 
@@ -275,7 +276,6 @@ main img {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	width: 100%;
 	background-color: #F2F2F2;
 }
 
@@ -283,41 +283,58 @@ main img {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	width: 90%;
+	width: 75%;
 	padding: 70px 0;
 	align-self: center;
 }
 
 .firstPart {
 	position: relative;
-	padding: 10px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	width: 60%;
+	padding: 6px 0;
 	background-color: #FDA600;
 }
 
 .firstPart .triangles-left {
 	position: absolute;
-	width: 38px;
-	height: 93%;
-	left: -38px;
-	top: 0;
+	width: 36px;
+	height: 100%;
+	left: -36px;
+	top: 0px;
 	transform: rotate(180deg);
+	background-size: 80% auto;
+	background-repeat: repeat-y;
 }
 
 .secondPart .triangles-right {
 	position: absolute;
 	top: 0;
-	right: -40px;
-	width: 40px;
+	right: -36px;
+	width: 36px;
 	height: 100%;
+    background-size: 80% auto;
+	background-repeat: repeat-y;
 }
 
+
+.secondPart .bullets {
+	transform: rotate(180deg);
+	position: absolute;
+	top: 0;
+	left: -18px;
+	width: 13px;
+	height: 95%;
+	padding: 10px;
+	background-size: 90% auto;
+	background-repeat: repeat-y;
+}
+
+
 .firstPart div {
-	padding: 15px 0;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -327,49 +344,47 @@ main img {
 
 .firstPart div p {
 	font-family: "Ubuntu";
-	font-weight: bold;
-	font-size: 181%;
+	font-size: 22px;
 	color: black;
+	padding: 20px 0;
 }
 
 .firstPart .title {
 	margin: 0;
-	padding: 10px 0;
-	width: 450px;
+	width: 400px;
+	padding: 19px 0;
 	font-family: "Ubuntu";
 	font-weight: bold;
-	font-size: 350%;
+	font-size: 45px;
 	color: black;
-	line-height: 75px;
 }
 
 .firstPart .city {
 	font-family: "Kurale";
-	font-size: 180%;
+	font-size: 27px;
 	color: black;
-	padding: 0;
 }
 
 .firstPart a  {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 300px;
-	height: 60px;
-	padding: 10px 20px;
+	width: 250px;
+	padding: 8px 0;
 	background-color: green;
-	margin: 25px 0;
 	border: 2px solid white;
+	padding: 20px 0;
+	margin: 21px 0;
 }
 
 .firstPart p {
-	width: 250px;
+	width: 230px;
 	align-self: center;
 	font-family: "Ubuntu";
 	font-weight: bold;
 	color: white;
 	text-align: center;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 .firstPart a div {
@@ -377,14 +392,14 @@ main img {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
-	margin-left: -15px;
+	margin-left: 10px;
+	justify-content: space-around;
 }
 
 .firstPart a div i {
 	align-self: center;
 	color: white;
-	font-size: 50px;
+	font-size: 40px;
 }
 .firstPart .tringle-border {
 	position: absolute;
@@ -394,59 +409,7 @@ main img {
 	height: 67px;
 	transform: rotate(180deg);
 }
-
-.firstPart .t-one {
-	top: 60px;
-}
-
-.firstPart .t-two {
-	top: 120px;
-}
-
-.firstPart .t-three {
-	top: 180px;
-}
-
-.firstPart .t-four {
-	top: 240px;
-}
-
-.firstPart .t-five {
-	top: 300px;
-}
-
-.firstPart .t-six {
-	top: 368px;
-}
 /*-----------------WHITE DOTS ON THE TICKET---------------*/
-.firstPart .pins {
-	position: absolute;
-	width: 45px;
-	height: 80px;
-	top: -2px;
-	right: -23px;
-	z-index: 1;
-}
-
-.firstPart .p-one {
-	top: 69px;
-}
-
-.firstPart .p-two {
-	top: 141px;
-}
-
-.firstPart .p-three {
-	top: 213px;
-}
-
-.firstPart .p-four {
-	top: 285px;
-}
-
-.firstPart .p-five {
-	top: 357px;
-}
 
 .secondPart {
 	position: relative;
@@ -468,18 +431,19 @@ main img {
 }
 
 .secondPart .moths-left {
-	font-size: 226%;
+	font-size: 30px;
 	font-weight: bold;
+	width: 80%;
 }
 
 .secondPart .price-actual {
-	font-size: 580%;
+	font-size: 63px;
 	font-weight: bold;
 }
 
 .secondPart .price-outOfDated {
 	position: relative;
-	font-size: 228%;
+	font-size: 30px;
 	font-weight: bold;
 	align-self: flex-end;
 	margin-right: 30px;
@@ -487,10 +451,14 @@ main img {
 	width: 188px;
 }
 
-.price-outOfDated svg {
+.cross-line {
 	position: absolute;
-	top: 0px;
-	left: 0;
+	width: 140px;
+	transform: rotate(10deg);
+	top: 15px;
+	left: 21px;
+	padding: 2px;
+	border-top: 2px solid #F5FFFA;
 
 }
 
@@ -527,7 +495,7 @@ main img {
 	font-size: 55px;
 	width: 100%;
 	background-color: rgb(39, 7, 85);
-	padding:35px 0 ;
+	padding: 35px 0;
 }
 
 .what-included ul {
@@ -538,7 +506,12 @@ main img {
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
+<<<<<<< HEAD
 	width: 100%;
+=======
+	width: calc(100% - 10px*2);
+	padding: 10px;
+>>>>>>> 380ed38c1d35e7054d7cba46e23d67653ab5c134
 }
 
 .what-included ul li {
@@ -591,13 +564,15 @@ main img {
 
 .daily-program {
 	position: relative;
-	background-repeat: no-repeat;
+	/* background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 10% 20%;
+	background-position: 10% 20%; */
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	padding: 10px 0;
+	background: url('../design/img_pack/clipart/santa.png') no-repeat top right, url('../design/img_pack/clipart/tree_bg.png') no-repeat bottom left;
+	background-size: 30%;
 }
 
 .christmas-santa {
