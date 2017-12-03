@@ -1,0 +1,8 @@
+@keyframes snowflakes {
+    0% {
+        background-position-y: 0;
+    }
+    100% {
+        background-position-y: 198px;
+    }
+}
