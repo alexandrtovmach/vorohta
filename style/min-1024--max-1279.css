@@ -1,0 +1,113 @@
+@media only screen
+and (min-device-width : 1024px) 
+and (max-device-width : 1279px) {
+
+    header {
+        justify-content: space-between;
+    }
+
+    .header-list-menu {
+        margin-left: 40px;
+    }
+
+    .header-list-menu a {
+        width: 110px;
+    }
+
+    .header-logo {
+        width: 100px;
+    }
+
+    .header-phoneNumber {
+        margin-right: 40px;
+    }
+
+    .title {
+    	padding: 15px 0;
+    }
+
+    .what-included ul {
+        padding-bottom: 200px;
+        background-size: 100% 41%;
+    }
+
+    .what-included h2 {
+    	padding: 18px 0;
+    }
+
+    .what-included ul li p {
+    	font-size: 17px;
+    }
+
+    .daily-program {
+    	padding: 15px 0;
+    }
+
+    .daily-program ul li {
+    	width: 25%;
+    	height: 370px;
+        margin-top: 24px;
+    }
+
+    .daily-program h2 {
+    	padding: 15px 0;
+    }
+
+    .daily-block-footer {
+    	margin-bottom:0;
+    }
+
+    .daily-block-footer h3 {
+    	width: 50%;
+    }
+
+    .first-day {
+        background-size: 24% 11%;
+    }
+
+    .second-day {
+    	padding-bottom: 38px;
+    }
+
+    .Order-button {
+    	margin: 0;
+    }
+
+    .Order-button a {
+        margin: 0;
+    }
+
+    .order-phoneNumber {
+        margin: 0;
+    }
+
+    .third-day h2 {
+    	margin: 40px 0 -8px;
+    }
+
+    .third-day .daily-block-footer {
+    	margin-bottom: 50px;
+    }
+
+    .daily-block-footer {
+    	margin-top: 20px;
+    }
+
+    .daily-block-footer p {
+        font-size: 18px;
+    }
+
+    .daily-block-footer h3 {
+        font-size: 25px;
+    }
+
+    .fouth-day .daily-block-footer {
+    	margin: 20px 0;
+    }
+
+    .photo-collage p {
+    	padding: 0px 0 35px;
+    }
+}
+
+

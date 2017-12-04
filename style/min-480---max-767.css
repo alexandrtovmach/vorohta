@@ -1,0 +1,404 @@
+@media only screen
+and (min-device-width : 480px) 
+and (max-device-width : 767px) {
+
+    header {
+        height: 67px;
+        justify-content: space-between;
+    }
+
+    .hamburger-icon {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .header-phoneNumber {
+        display: none;
+    }
+
+    .for-small-screen {
+        display: block;
+        text-align: center;
+        font-family: "Kurale";
+        font-size: 23px;
+        color: white;
+        width: 100%;
+    }
+
+    .header-list-menu a:nth-child(2),
+    .header-list-menu a:nth-child(3),
+    .header-list-menu a:nth-child(4) {
+        display: none;
+    }
+
+    .header-list-menu {
+        margin-left: 40px;
+    }
+
+    .header-list-menu a {
+        width: 30px;
+    }
+
+    .logo-image {
+        background-image: url(..design/img_pack/logo.png);
+        margin-left: -10px;
+        width: 162px;
+        height: 138px;
+        align-self: center;
+        margin-bottom: 15px;
+    }
+
+    .header-logo img {
+        width: 80px;
+        height: 68px;
+    }
+
+    .header-logo {
+        width: 100px;
+    }
+
+    .header-phoneNumber {
+        margin-right: 40px;
+    }
+
+    .section-main h1 {
+        font-size: 38px;
+    }
+
+    .section-promise ul li {
+        width: 70%;
+    }
+
+    .section-promise ul li p {
+        font-size: 15px;
+    }
+
+    .section-promise ul li div i {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+
+    .section-main p {
+        text-align: justify;
+        font-size: 13px;
+        width: 80%;
+        line-height: 15px;
+    }
+
+    .section-main {
+        height: 50vh;
+        padding-top: 130px;
+        justify-content: flex-start;
+    }
+
+    .black-wrap {
+        height: 50vh;
+        padding-top: 130px;
+    }
+
+    main img {
+        margin: 0;
+        width: 166px;
+        height: 150px;
+    }
+
+    .section-main span {
+        font-size: 20px;
+    }
+
+    .title {
+    	padding: 15px 0;
+        font-size: 36px;
+    }
+
+    .what-included ul {
+        padding-bottom: 85px;
+        background-size: 100% 17%;
+    }
+
+    .firstPart .title {
+        font-size: 27px;
+        width: 200px;
+        margin: 15px 0 20px;
+    }
+
+    .firstPart .city {
+        font-size: 21px;
+    }
+
+    .firstPart div p {
+        font-size: 17px;
+        padding: 10px 0;
+    }
+
+    .firstPart a {
+        width: 70%;
+        padding: 10px 0;
+        margin-bottom: 30px;
+    }
+
+    .firstPart p {
+        font-size: 18px;
+    }
+
+    .firstPart a div i {
+        font-size: 30px;
+    }
+
+    .firstPart .triangles-left {
+        transform: rotate(270deg);
+        position: absolute;
+        width: 21px;
+        height: 297px;
+        left: 138px;
+        top: -158px;
+    }
+
+    .section-dates ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .firstPart {
+        width: 298px;
+    }
+
+    .secondPart {
+        padding: 20px 0;
+        width: 298px;
+    }
+
+    .secondPart .triangles-right {
+       transform: rotate(450deg);
+        position: absolute;
+        width: 21px;
+        height: 297px;
+        left: 138px;
+        top: 68px;
+}
+
+    .secondPart .bullets {
+        top: -161px;
+        height: 304px;
+        transform: rotate(450deg);
+        left: 130px;
+        width: 11px;
+    }
+
+    .secondPart .moths-left {
+        font-size: 18px;
+        width: 86%;
+    }
+
+    .secondPart .price-actual {
+        font-size: 47px;
+    }
+
+    .secondPart .price-outOfDated {
+        font-size: 23px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+
+    .cross-line {
+        transform: rotate(8deg);
+        left: 37px;
+        width: 107px;
+    }
+
+    .what-included ul li {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 338px;
+        margin: 1px 0;
+        padding: 5px 0;
+    }
+
+    .what-included h2 {
+    	padding: 18px 0;
+        font-size: 30px;
+    }
+
+    .what-included ul li p {
+        text-align: left;
+    	font-size: 15px;
+    }
+
+    .what-included ul li div i {
+        font-size: 25px;
+        width: 35px;
+    }
+
+
+    .daily-program {
+    	padding: 15px 0;
+    }
+
+    .daily-program ul li {
+    	width: 340px;
+    	height: 287px;
+        margin-top: 24px;
+    }
+
+    .daily-program h2 {
+    	padding:0;
+        font-size: 32px;
+        margin-bottom: -10px;
+    }
+
+    .daily-program .circle-time {
+        width: 80px;
+        height: 80px;
+    }
+
+    .daily-program .circle-time span {
+        font-size: 20px;
+    }
+
+    .daily-program ul li p {
+        font-size: 13px;
+    }
+
+    .daily-block-footer {
+    	margin-bottom:0;
+    }
+
+    .daily-block-footer h3 {
+    	width: 50%;
+    }
+
+    .daily-program ul li h3 {
+        font-size: 15px;
+    }
+
+    .first-day {
+        background-size: 22% 6%;
+    }
+
+    .second-day {
+    	padding-bottom: 38px;
+    }
+
+    .Order-button {
+        flex-direction: column;
+        justify-content: space-around;
+    	margin:  0;
+    }
+
+    .Order-button a {
+        width: 175px;
+        margin: 0;
+        height: 50px;
+    }
+
+    .Order-button a p {
+        font-size: 20px;
+    }
+
+    .order-phoneNumber {
+        margin: 0;
+        font-size: 19px;
+    }
+
+    .Order-button a div i {
+
+        margin-right: 10px;
+        color: white;
+        font-size: 30px;
+    }
+
+    .third-day  {
+        background-size: 98% 38%;
+    }
+
+    .third-day h2 {
+    	margin: 40px 0 -8px;
+    }
+
+    .third-day .daily-block-footer {
+    	margin-bottom: 50px;
+    }
+
+    .daily-block-footer {
+    	margin-top: 20px;
+    }
+
+    .daily-block-footer p {
+        font-size: 14px;
+    }
+
+    .daily-block-footer h3 {
+        font-size: 18px;
+    }
+
+    .fouth-day .daily-block-footer {
+    	margin: 20px 0;
+    }
+
+    .daily-block-footer img {
+        position: absolute;
+        top: -52px;
+        right: 9px;
+        width: 45px;
+    }
+
+    .photo-collage p {
+        font-size: 32px;
+    	padding: 0px 0 35px;
+    }
+
+    .photo-collage div {
+        height: 230px;
+    }
+
+    .contacts ul {
+        width: 90%;
+    }
+
+    .contacts h3 {
+        font-size: 30px;
+    }
+
+    .contacts ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contacts ul li h4 {
+        font-size: 16px;
+    }
+
+    .contacts ul li span {
+        font-size: 13px;
+    }
+
+    .subscribe {
+        background-color: rgba(72, 0, 255, 0.9);
+    }
+
+    .subscribe input {
+        width: 151px;
+        height: 30px;
+    }
+
+    .subscribe a {
+        padding: 6px;
+        font-size: 16px;
+    }
+
+    .subscribe h3 {
+        font-size: 13px;
+    }
+
+    ::-webkit-input-placeholder { font-size: 183px;color:grey;font-family: "Ubuntu";}
+    ::-moz-placeholder          { font-size: 13px;color:grey;font-family: "Ubuntu";}/* Firefox 19+ */
+    :-moz-placeholder           { font-size: 183px;color:grey;font-family: "Ubuntu";}/* Firefox 18- */
+    :-ms-input-placeholder      { font-size: 183px;color:grey;font-family: "Ubuntu";}
+
+}
+
+
