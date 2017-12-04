@@ -1,6 +1,5 @@
 /*----------------HEADER------------------*/
 
-
 header {
 	position: fixed;
 	display: flex;
@@ -8,7 +7,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-	height: 100px;
+	height: 75px;
     background-color: rgba(73, 22, 151, 0.93);
 	z-index: 9999;
 }
@@ -31,8 +30,8 @@ header {
 
 .header-logo img {
 	margin-top: 5px;
-	width: 110px;
-	height: 106px;
+	width: 104px;
+	height: 82px;
 }
 
 .header-list-menu a {
@@ -40,7 +39,7 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	font-size: 22px;
+	font-size: 20px;
 	color: white;
 	width: 140px;
 	height: 100%;
@@ -184,35 +183,35 @@ main img {
 /*--------snow animation for .section-promise--------- */
 
 .snowflakes-area-top {
-	height: 100px;
+	height: 50px;
 	background-image:  url('../design/img_pack/clipart/snowflakes_white_horizontal_bg.png');
 	animation: snowflakes 15s infinite linear;
-	box-shadow: inset 0em -3em 3em -1em #FDA600;
+	box-shadow: inset 0em -1em 2em 0em #FDA600;
 }
 
 .snowflakes-area-bottom {
-	height: 100px;
+	height: 50px;
 	background-image:  url('../design/img_pack/clipart/snowflakes_white_horizontal_bg.png');
 	animation: snowflakes 15s infinite linear;
-	box-shadow: inset 0 2em 3em 1em rgb(253, 166, 0);
+	box-shadow: inset 0 1em 2em 0em rgb(253, 166, 0);
 }
 
 .title {
 	font-family: "Kurale";
-	font-size: 60px;
+	font-size: 45px;
 	text-align: center;
-	margin-top: -65px;
-	margin-bottom: 50px;
+	margin-top: -40px;
+	margin-bottom: 15px;
 }
 
 .section-promise ul {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
 	align-self: center;
 	margin: auto;
-	width: 80%;
+	width: 100%;
 	height: 100%;
 }
 
@@ -221,7 +220,7 @@ main img {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	width: 49%;
+	width: 21%;
 	margin: 10px 0;
 }
 
@@ -235,13 +234,13 @@ main img {
 }
 
 .section-promise ul li div i {
-	font-size: 50px;
+	font-size: 35px;
 }
 
 .section-promise ul li p {
 	flex-grow: 1;
 	font-family: "Ubuntu";
-	font-size: 20px;
+	font-size: 18px;
 	width: 75%;
 	display: flex;
 	flex-direction: row;
@@ -262,7 +261,7 @@ main img {
 	flex-direction: row;
 	justify-content: center;
 	width: 75%;
-	padding: 70px 0;
+	padding: 40px 0;
 	align-self: center;
 }
 
@@ -324,7 +323,7 @@ main img {
 	font-family: "Ubuntu";
 	font-size: 22px;
 	color: black;
-	padding: 20px 0;
+	padding: 3px 0;
 }
 
 .firstPart .title {
@@ -333,13 +332,13 @@ main img {
 	padding: 2px 0;
 	font-family: "Ubuntu";
 	font-weight: bold;
-	font-size: 62px;
+	font-size: 47px;
 	color: black;
 }
 
 .firstPart .city {
 	font-family: "Kurale";
-	font-size: 27px;
+	font-size: 23px;
 	color: black;
 }
 
@@ -352,7 +351,7 @@ main img {
 	background-color: green;
 	border: 2px solid white;
 	padding: 10px 0;
-	margin: 32px 0;
+	margin: 16px 0 9px;
 }
 
 .firstPart p {
@@ -401,7 +400,7 @@ main img {
 
 .secondPart p {
 	font-family: "Ubuntu";
-	font-size: 20px;
+	font-size: 25px;
 	color: white;
 	width: 86%;
 	text-align: center;
@@ -409,7 +408,7 @@ main img {
 }
 
 .secondPart .moths-left {
-	font-size: 30px;
+	font-size: 24px;
 	font-weight: bold;
 	width: 80%;
 }
@@ -470,10 +469,10 @@ main img {
 	text-align: center;
 	font-family: "Kurale";
 	font-weight: bold;
-	font-size: 55px;
+	font-size: 45px;
 	width: 100%;
 	background-color: rgb(39, 7, 85);
-	padding: 35px 0;
+	padding: 15px 0;
 }
 
 .what-included ul {
@@ -486,9 +485,9 @@ main img {
 	flex-wrap: wrap;
 	width: 100%;
 	padding-top: 30px;
-	padding-bottom:276px;
+	padding-bottom:240px;
 	background-image: url('../design/img_pack/clipart/christmas_tree_bg_clipart.png');
-	background-size: 100% auto;
+	background-size: 100% 55%;
 	background-position: bottom;
 	background-repeat: no-repeat;
 
@@ -500,9 +499,9 @@ main img {
 	justify-content: center;
 	align-items: center;
 	align-self: flex-end;
-	width:350px;
-	height: 90px;
-	margin: 0 20px;
+	width:21%;
+	margin: 10px 0;
+	padding: 5px 0;
 }
 
 .what-included ul li div {
@@ -515,7 +514,8 @@ main img {
 }
 
 .what-included ul li div i {
-	font-size: 50px;
+	font-size: 35px;
+	padding: 0 20px;
 	color: white;
 }
 
@@ -525,12 +525,11 @@ main img {
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
-	height: 100%;
 	width: 70%;
 	min-width: 280px;
 	color: white;
 	font-family: "Ubuntu";
-	font-size: 23px;
+	font-size: 18px;
 }
 
 /*--------------daily-program------------*/
@@ -539,30 +538,20 @@ main img {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	
+	padding: 17px 0;
 }
 
 
 /*-------------------ORNAMENT---------------------*/
 .first-day {
-    background: url(../design/img_pack/clipart/santa.png) top right 5%, url(../design/img_pack/clipart/tree_bg.png) bottom left;
-    background-size: 33% auto;
+    background: url(../design/img_pack/clipart/santa.png) top 0 right 15%, url(../design/img_pack/clipart/tree_bg.png) bottom left;
+    background-size: 20% auto;
     background-repeat: no-repeat;
 } 
 
-.first-day h2,
-.third-day h2,
-.fouth-day h2 {
-	text-align: center;
-}
-
 .second-day {
-	background: url(../design/img_pack/clipart/decoration_bg.png) no-repeat top left,  #5B07B2; 
-}
-
-.second-day h2 {
-	text-align: right;
-	padding-right: 80px;
+	background: url(../design/img_pack/clipart/decoration_bg.png) no-repeat top left,  #5B07B2;
+	background-size: 60%; 
 }
 
 .third-day {
@@ -591,11 +580,11 @@ main img {
 }
 
 .daily-program h2 {
-	margin: 20px 0;
 	font-family: "Kurale";
 	font-weight: bold;
-	font-size: 300%;
+	font-size: 45px;
 	color:  #5B07B2;
+	text-align: center;
 }
 
 .fouth-day h2 {
@@ -605,11 +594,11 @@ main img {
 .daily-program ul {
 	margin-top: 50px;
 	align-self: center;
-	width: 70%;
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;;
 	align-items: center;
 }
 
@@ -638,10 +627,10 @@ main img {
 
 .daily-program ul li {
 	position: relative;
-	background: white;
-	width: 33%;
-	height: 409px;
-	margin: 30px;
+	background: #F2F2F2;
+	width: 24%;
+	height: 335px;
+	margin: 16px;
 	z-index: 1;
 }
 
@@ -655,18 +644,18 @@ main img {
 
 .daily-program ul li h3 {
 	font-family: "Ubuntu";
-	font-size: 27px;
+	font-size: 19px;
 	font-weight: bold;
 	text-align: center;
-	margin: 18px 0;
+	margin: 10px 0;
 }
 
 
 .daily-program ul li p {
 	font-family: "Ubuntu";
-	padding: 0 10px 25px;
-	font-size: 16px;
+	font-size: 15px;
 	text-align: justify;
+	padding: 0 10px;
 }
 
 .daily-block-footer {
@@ -677,21 +666,20 @@ main img {
 	width: 90%;
 	background-color: rgb(255, 167, 0);
 	align-self: center;
-	margin: 50px 0;
 	border-radius: 25px; 
 }
 
 .daily-block-footer img {
 	position: absolute;
-	top: -60px;
+	top: -70px;
 	right: 5px;
-	width: 100px;
+	width: 75px;
 }
 
 
 .daily-block-footer h3 {
 	font-family: "Ubuntu";
-	font-size: 40px;
+	font-size: 32px;
 	text-align: left;
 	margin-left: 50px;
 	margin-top:-40px;
@@ -701,8 +689,8 @@ main img {
 .daily-block-footer p {
 	width: 85%;
 	text-align: center;
-	font-size: 30px;
-	padding: 5px 0 25px;
+	font-size: 24px;
+	padding: 5px 0 17px;
 	font-family: "Kurale";
 	align-self: center;
 }
@@ -749,21 +737,22 @@ main img {
 
 .Order-button {
 	width: 100%;
-	height: 200px;
+	height: 115px;
 	background-color: rgb(39, 7, 85);
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+	margin: 22px 0;
 }
 
 .Order-button a {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	width: 300px;
+	justify-content: space-around;
+	width: 240px;
 	height: 60px;
-	padding: 10px 20px;
+	padding: 0 20px;
 	background-color: green;
 	margin-left: 200px;
 	border: 2px solid white;
@@ -776,7 +765,7 @@ main img {
 	font-family: "Ubuntu Bold";
 	color: white;
 	text-align: center;
-	font-size: 30px;
+	font-size: 26px;
 }
 
 .Order-button a div {
@@ -789,13 +778,14 @@ main img {
 }
 
 .Order-button a div i {
+	margin-right: 15px;
 	color: white;
-	font-size: 50px;
+	font-size: 38px;
 }
 
 .order-phoneNumber {
 	font-family: "Kurale";
-	font-size: 40px;
+	font-size: 35px;
 	line-height: 20px;
 	margin-right: 200px;
 	color: white;
@@ -814,17 +804,17 @@ main img {
 
 .photo-collage  p {
 	font-family: "Kurale";
-	font-size: 60px;
+	font-size: 45px;
 	text-align:center;
 	align-items: center;
-	padding: 40px 0;
+	padding: 20px 0;
 }
 
 .photo-collage div {
 	width: 100%;
-	height: 900px;
-	background-image: url(../design/img_pack/photocollage.png);
-	background-size: cover;
+	height: 300px;
+	background-image: url(../design/img_pack/bukovel.jpg);
+	background-size: contain;
 }
 
 
@@ -842,7 +832,7 @@ main img {
 	font-family: "Ubuntu";
 	align-self: center;
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 45px;
 	color: black;
 	margin-top: -20px;
 }
@@ -867,14 +857,14 @@ main img {
 .contacts ul li h4 {
 	padding: 20px 0 20px;
 	font-family: "Ubuntu";
-	font-size: 17px;
+	font-size: 20px;
 	color: rgb(171, 145, 56);
 }
 
 .contacts ul li span {
 	text-align: center;
 	font-family: "Ubuntu";
-	font-size: 18px;
+	font-size: 16px;
 	color: #231E1B;
 	line-height: 26px;
 }
@@ -899,14 +889,13 @@ footer {
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	padding: 50px 0;
 }
 
 .subscribe h3 {
 	font-family: "Ubuntu";
 	font-weight: bold;
-	font-size: 25px;
-	margin: 50px 0;
+	font-size: 23px;
+	margin: 25px 0;
 }
 
 .subscribe input {
@@ -932,3 +921,6 @@ footer {
 ::-moz-placeholder          { font-size: 18px;color:grey;font-family: "Ubuntu";}/* Firefox 19+ */
 :-moz-placeholder           { font-size: 18px;color:grey;font-family: "Ubuntu";}/* Firefox 18- */
 :-ms-input-placeholder      { font-size: 18px;color:grey;font-family: "Ubuntu";}
+
+
+/*------------------MODAL WINDOWS  REGISTRATIONS-----------------------*/
