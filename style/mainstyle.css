@@ -942,15 +942,14 @@ footer {
 /*--------- BUTTON TO TOP----------*/
 
 #toTop {
-	width: 12px;
-	height: 12px;
-	padding: 20px;
-	border-radius: 50%;
+	width: 100px;
+	height: 102px;
+	background-size: cover;
 	background:rgba(250, 40, 225, 1);
 	text-align:center;
 	position:fixed;
-	bottom:10px; /* отступ кнопки от нижнего края страницы*/
-	right:10px;
+	bottom:0; /* отступ кнопки от нижнего края страницы*/
+	right:0;
 	cursor:pointer;
 	display:none;
 	color:#333;
