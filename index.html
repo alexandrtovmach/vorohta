@@ -8,7 +8,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Тур де Львів: Гуцульський новий рік</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <link href="https://fonts.googleapis.com/css?family=Kurale|Ubuntu:400,400i,700&amp;subset=cyrillic-ext" rel="stylesheet">
         <link rel="stylesheet" href="./style/reset.css">
         <link rel="stylesheet" href="./style/animations.css">
@@ -22,9 +23,7 @@
         <link rel="stylesheet" href="style/min-1024--max-1279.css">
         <link rel="stylesheet" href="style/min-768---max-1023.css">
         <link rel="stylesheet" href="style/min-480---max-767.css">
-         <link rel="stylesheet" href="style/min-310---max-479.css">
-
-
+        <link rel="stylesheet" href="style/min-310---max-479.css">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     </head>
@@ -36,7 +35,7 @@
         <header>
             <div class='header-list-menu'>
                 <a href="#" class='header-logo' >
-                    <img src="design/img_pack/logo.png" alt="logo">
+                    <div class='header-logo-img' style='background-image: url("design/img_pack/logo.png" )'></div>
                 </a>
                 <a class='menu-item' href="https://css-tricks.com/almanac/properties/f/filter/">КАТАЛОГ</a>
                 <a class='menu-item'  href="#">ПРО НАС</a>
@@ -45,10 +44,7 @@
                 <p class='header-phoneNumber'>ЗАМОВИТИ +380961112223</p>
                 <p class='for-small-screen'>+380961112223</p>
                 <div class="hamburger-icon"><i class="fa fa-bars" aria-hidden="true"></i></div>
-        </header>
 
-        <main>
-            <section class="section-main">
 
                 <!--SUBMENU-->
                 <div class="submenu">
@@ -59,10 +55,21 @@
                     </ul>
                 </div>
 
+                <script>
+                    $('.hamburger-icon').click(function(){
+                        $('.submenu').slideToggle(200)
+                    })
+                </script>
+
+
+        </header>
+
+        <main>
+            <section class="section-main">
+
+                
                 <div class='black-wrap'></div>
-                <div class="logo-image">
-                    <img src="design/img_pack/logo.png" alt="logo">
-                </div>
+                <div class="logo-image" style='background-image: url("design/img_pack/logo.png")'></div>
                 <span class='ask-invitation'>Гайда з нами на</span>
                 <h1>"Гуцульский Новий Рік"</h1>
                 <p>Що може бути краще ніж зустріти собі Новий 2018 Рік у серці Карпат у самій Верховині! Серед щирих, відкритих людей, веселою компанією, серед кришталевого повітря !
@@ -97,7 +104,6 @@
             <section class='section-dates'>
                 <ul>
                     <li class='firstPart'>
-                        <div class='triangles-left' style='background-image: url(design/img_pack/clipart/ticket_deco_orange.png);'></div>
                         <div>
                             <p>25.01 - 28.01</p>
                             <p>КВИТОК №2</p>
@@ -110,8 +116,6 @@
                         </a>
                     </li>
                     <li class='secondPart'>
-                        <div class='bullets' style='background-image: url(design/img_pack/clipart/ticket_divider.png)'></div>
-                        <div class='triangles-right' style='background-image: url(design/img_pack/clipart/ticket_deco_violet.png)'></div>
                         <p class='moths-left'>Залишилось 8 місяців<br> за ціною:</p>
                         <p class='price-actual'>6999 грн</p>
                         <p class='price-outOfDated'>8200 грн
@@ -406,7 +410,6 @@
             <section class='section-dates'>
                 <ul>
                     <li class='firstPart'>
-                        <div class='triangles-left' style='background-image: url(design/img_pack/clipart/ticket_deco_orange.png);'></div>
                         <div>
                             <p>25.01 - 28.01</p>
                             <p>КВИТОК №2</p>
@@ -419,8 +422,6 @@
                         </a>
                     </li>
                     <li class='secondPart'>
-                        <div class='bullets' style='background-image: url(design/img_pack/clipart/ticket_divider.png)'></div>
-                        <div class='triangles-right' style='background-image: url(design/img_pack/clipart/ticket_deco_violet.png)'></div>
                         <p class='moths-left'>Залишилось 8 місяців за ціною:</p>
                         <p class='price-actual'>6999 грн</p>
                         <p class='price-outOfDated'>8200 грн
@@ -465,5 +466,26 @@
                 </div>
             </section>
         </footer>
+
+        <!-- BUTTON TO TOP-->
+        <div id = "toTop" >
+            <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+        </div>
+
+        <script>
+            $(function() {
+            $(window).scroll(function() {
+            if($(this).scrollTop() != 0) {
+            $('#toTop').fadeIn();
+            } else {
+            $('#toTop').fadeOut();
+            }
+            });
+            $('#toTop').click(function() {
+            $('body,html').animate({scrollTop:0},500);
+            });
+            });
+        </script>
+
     </body>
 </html>

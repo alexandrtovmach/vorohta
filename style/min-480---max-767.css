@@ -7,6 +7,10 @@ and (max-device-width : 767px) {
         justify-content: space-between;
     }
 
+    .submenu {
+        top:67px;
+    }
+
     .hamburger-icon {
         display: block;
         margin-right: 20px;
@@ -16,13 +20,18 @@ and (max-device-width : 767px) {
         display: none;
     }
 
+    .header-logo-img {
+        width: 72px;
+    }
+
     .for-small-screen {
         display: block;
         text-align: center;
         font-family: "Kurale";
         font-size: 23px;
         color: white;
-        width: 100%;
+        width: 26%;
+        margin-left: -30px;
     }
 
     .header-list-menu a:nth-child(2),
@@ -86,13 +95,14 @@ and (max-device-width : 767px) {
     }
 
     .section-main {
-        height: 50vh;
+        height: 100vh;
         padding-top: 130px;
         justify-content: flex-start;
+        background-position: 3% 45%;
     }
 
     .black-wrap {
-        height: 50vh;
+         height: 100vh;
         padding-top: 130px;
     }
 
@@ -275,7 +285,7 @@ and (max-device-width : 767px) {
     }
 
     .first-day {
-        background-size: 22% 6%;
+        background-size: 100% 24%;
     }
 
     .second-day {
@@ -285,7 +295,7 @@ and (max-device-width : 767px) {
     .Order-button {
         flex-direction: column;
         justify-content: space-around;
-    	margin:  0;
+    	margin-top:  -20px;
     }
 
     .Order-button a {
@@ -315,7 +325,7 @@ and (max-device-width : 767px) {
     }
 
     .third-day h2 {
-    	margin: 40px 0 -8px;
+    	margin: 10px 0 -8px;
     }
 
     .third-day .daily-block-footer {

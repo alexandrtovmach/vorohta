@@ -7,23 +7,30 @@ and (max-device-width : 479px) {
         justify-content: space-between;
     }
 
+    .header-logo-img {
+    width: 70px;
+    height: 100%;
+    background-size: contain;
+    margin-left: -20px;
+}
+
     .hamburger-icon {
         display: block;
         font-size: 30px;
-        margin-right: 30px;
+        margin-right: 20px;
     }
 
     .header-phoneNumber {
+        margin-left: -20px;
         display: none;
     }
 
     .for-small-screen {
         display: block;
-        text-align: center;
         font-family: "Kurale";
         font-size: 20px;
         color: white;
-        width: 100%;
+        margin-right: 15px;
     }
 
     .header-list-menu a:nth-child(2),
@@ -42,7 +49,7 @@ and (max-device-width : 479px) {
 
     .logo-image {
         background-image: url(..design/img_pack/logo.png);
-        margin-left: -10px;
+        margin-left: 12px;
         width: 162px;
         height: 138px;
         align-self: center;
@@ -88,14 +95,14 @@ and (max-device-width : 479px) {
     }
 
     .section-main {
-        height: 50vh;
+        height: 100vh;
         padding-top: 130px;
         justify-content: flex-start;
         background-position: center center;
     }
 
     .black-wrap {
-        height: 50vh;
+        height: 100vh;
         padding-top: 130px;
     }
 
@@ -234,6 +241,10 @@ and (max-device-width : 479px) {
     	font-size: 15px;
     }
 
+    .what-included ul li div {
+        padding: 0 0px 0 15px;
+    }
+
     .what-included ul li div i {
         font-size: 25px;
         width: 35px;
@@ -299,18 +310,19 @@ and (max-device-width : 479px) {
     }
 
     .second-day {
-    	padding-bottom: 38px;
+    	padding-bottom: 15px;
     }
 
     .Order-button {
+        height: 108px;
         flex-direction: column;
-        justify-content: space-around;
-    	margin:  0;
+        justify-content: center;
+    	margin-top: -16px;
     }
 
     .Order-button a {
         width: 175px;
-        margin: 0;
+        margin: 5px;
         height: 50px;
     }
 
@@ -332,14 +344,19 @@ and (max-device-width : 479px) {
 
     .third-day  {
         background-size: 98% 57%;
+        margin-top: -20px;
     }
 
     .third-day h2 {
-    	margin: 40px 0 -8px;
+    	margin: 30px 0 -20px;
     }
 
     .third-day .daily-block-footer {
-    	margin-bottom: 50px;
+    	margin-bottom: 30px;
+    }
+
+    .fouth-day {
+        padding-bottom: 0;
     }
 
     .daily-block-footer {
@@ -367,7 +384,7 @@ and (max-device-width : 479px) {
 
     .photo-collage p {
         font-size: 25px;
-    	padding: 0px 0 15px;
+        margin-top: -40px;
     }
 
     .photo-collage div {
@@ -389,6 +406,10 @@ and (max-device-width : 479px) {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .contacts ul li {
+        width: 100%;
     }
 
     .contacts ul li h4 {
