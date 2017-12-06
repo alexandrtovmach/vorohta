@@ -72,7 +72,6 @@
                         </li>
                         </ul>     
                 </div>
-
                 <script>
                     $('.phone-button-slide').click(function(){
                         $('.phone-button-slide').toggleClass('phone-button-hidden')
@@ -86,11 +85,17 @@
             </div>
             <section class="section-main">
 
-                
+
+
                 <div class='black-wrap'></div>
                 <div class="logo-image" style='background-image: url("design/img_pack/logo.png")'></div>
                 <span class='ask-invitation'>Гайда з нами на</span>
-                <h1>"Гуцульский Новий Рік"</h1>
+                <h1>"Гуцульский Новий Рік"
+                    <div>Залишилося місць: <span class='ticketsCounter'></span></div>
+                </h1>
+
+                
+                
                 <p>Що може бути краще ніж зустріти собі Новий 2018 Рік у серці Карпат у самій Верховині! Серед щирих, відкритих людей, веселою компанією, серед кришталевого повітря !
                 Новорічний Банкет, Сині гори та всі екскурсії вже у вартості, панове!
                 </p>
@@ -124,8 +129,8 @@
                 <ul>
                     <li class='firstPart'>
                         <div>
-                            <p>25.01 - 28.01</p>
-                            <p>КВИТОК №2</p>
+                            <p>31.12 - 02.01</p>
+                            <p>КВИТОК №<span class='bookedTickets'></span></p>
                         </div>
                         <p class='title'>Гуцульский Новий Рік</p>
                         <p class='city'>Ворохта</p>
@@ -135,9 +140,9 @@
                         </a>
                     </li>
                     <li class='secondPart'>
-                        <p class='moths-left'>Залишилось 8 місяців<br> за ціною:</p>
-                        <p class='price-actual'>6999 грн</p>
-                        <p class='price-outOfDated'>8200 грн
+                        <p class='moths-left'>Залишилось <span class='ticketsCounter'></span> місць за ціною:</p>
+                        <p class='price-actual'>4180 грн</p>
+                        <p class='price-outOfDated'>5690 грн
                             <span class='cross-line'></span>
                         </p>
                     </li>
@@ -177,7 +182,7 @@
                         <div class='circle-time'>
                             <span></span>
                         </div>
-                        <div id="img"></div>
+                        <div id="img"  style='background:url("images/2.jpg"); background-size: cover;'></div>
                         <h3>Зустрічаємо на львівському вокзалі приїжджих</h3>
                         <p class='hidden-when-small'> П’ємо каву, снідаємо, гріємося. 7.45 Оглядова екскурсія по Львову У супроводі майстра екскурсійної справи Ви поринете у світ Середньовічного Львова з його архітектурними пам’ятками та сучасними цікавинками</p>
                     </li>
@@ -185,7 +190,7 @@
                         <div class='circle-time'>
                             <span>10:00</span>
                         </div>
-                        <div id="img"></div>
+                        <div id="img" style='background:url("images/7.jpg"); background-size: cover; background-position: center'></div>
                         <h3>Збір групи навпроти готелю «Львів» у центрі міста</h3>
                         <p class='hidden-when-small'>Перше знайомство. У кого потяг приходить пізніше о 10.20 можна приєднатися до групи на залізничному вокзалі. 10.30 виїзд зі Львова
                         </p>
@@ -194,7 +199,7 @@
                         <div class='circle-time'>
                             <span>12.30</span>
                         </div>
-                        <div id="img"></div>
+                        <div id="img" style='background:url("images/1.jpg"); background-size: cover; background-position: center'></div>
                         <h3>Івано-Франківськ</h3>
                         <p class='hidden-when-small'>Ознайомча екскурсія славетним містом : Собори, пам’ятки, кав’ярні, витвори сучасних майстрів ковальського мистецтва… Вільний час на фотографії,обід, сувеніри</p>
                     </li>
@@ -202,7 +207,7 @@
                         <div class='circle-time'>
                             <span>16.30</span>
                         </div>
-                        <div id="img"></div>
+                        <div id="img"style='background:url("images/6.jpg"); background-size: cover; background-position: center'></div>
                         <h3>Коломия</h3>
                         <p class='hidden-when-small'>Гуляємо містом гуцулів, барвистих кольорів, коломийок та писанок. Фото коло найбільшої писанки у світі. Переїзд у Верховину</p>
                     </li>
@@ -210,7 +215,7 @@
                         <div class='circle-time'>
                             <span>18.30</span>
                         </div>
-                        <div id="img"></div>
+                        <div id="img" style='background:url("images/3.jpg"); background-size: cover; background-position: center'></div>
                         <h3>Верховина</h3>
                         <p class='hidden-when-small'>Поселення в комфортабельний готель з власною територією, що виходить на береги бурхливого Черемошу</p>
                     </li>
@@ -218,7 +223,7 @@
                         <div class='circle-time'>
                             <span>19.00</span>
                         </div>
-                        <div id="img"></div>
+                        <div id="img" style='background:url("images/4.jpg"); background-size: cover; background-position: center'></div>
                         <h3>Вечеря. Вільний час. Ночівля</h3>
                         <p class='hidden-when-small'></p>
                     </li>
@@ -425,8 +430,8 @@
                 <ul>
                     <li class='firstPart'>
                         <div>
-                            <p>25.01 - 28.01</p>
-                            <p>КВИТОК №2</p>
+                            <p>31.12 - 02.01</p>
+                            <p>КВИТОК №<span class='bookedTickets'></span></p>
                         </div>
                         <p class='title'>Гуцульский Новий Рік</p>
                         <p class='city'>Ворохта</p>
@@ -436,9 +441,9 @@
                         </a>
                     </li>
                     <li class='secondPart'>
-                        <p class='moths-left'>Залишилось 8 місяців за ціною:</p>
-                        <p class='price-actual'>6999 грн</p>
-                        <p class='price-outOfDated'>8200 грн
+                        <p class='moths-left'>Залишилось <span class='ticketsCounter'></span> місць за ціною:</p>
+                        <p class='price-actual'>4180 грн</p>
+                        <p class='price-outOfDated'>5690 грн
                             <span class='cross-line'></span>
                         </p>
                     </li>
@@ -515,8 +520,13 @@
 
                 event.stopPropagation();
              })
-            
 
+             const counterArray = document.getElementsByClassName('ticketsCounter');
+             const availableTickets = Math.abs(Math.floor((Date.now() - new Date('2017-12-31').valueOf()) / (1000 * 60 * 60 * 24)) - 1);
+
+             for(var i = 0; i < counterArray.length; i++) {
+                counterArray[i].innerHTML = availableTickets;
+             }
         </script>
 
     </body>
