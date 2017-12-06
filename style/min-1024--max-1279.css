@@ -39,33 +39,23 @@ and (max-device-width : 1279px) {
         background-size: 100% 41%;
     }
 
-    .what-included h2 {
-    	padding: 18px 0;
-    }
-
     .what-included ul li p {
     	font-size: 17px;
     }
 
-    .daily-program {
-    	padding: 15px 0;
-    }
-
     .daily-program ul li {
     	flex: 1 0 25%;
-        margin-top: 24px;
-    }
-
-    .daily-program h2 {
-    	padding: 15px 0;
     }
 
     .daily-program ul li p {
         margin: 25px 15px;
     }
 
-    .daily-block-footer {
-    	margin-bottom:0;
+    .daily-block-footer img {
+        position: absolute;
+        top: -85px;
+        right: 55px;
+        width: 70px;
     }
 
     .daily-block-footer h3 {
@@ -88,14 +78,6 @@ and (max-device-width : 1279px) {
         margin: 0;
     }
 
-    .third-day h2 {
-    	margin: 40px 0 -8px;
-    }
-
-    .third-day .daily-block-footer {
-    	margin-bottom: 50px;
-    }
-
     .daily-block-footer {
     	margin-top: 20px;
     }
@@ -112,9 +94,6 @@ and (max-device-width : 1279px) {
     	margin: 20px 0;
     }
 
-    .photo-collage p {
-    	padding: 0px 0 35px;
-    }
 }
 
 

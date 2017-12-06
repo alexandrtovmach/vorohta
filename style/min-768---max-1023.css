@@ -85,21 +85,25 @@ and (max-device-width : 1023px) {
         background-size: 100% 41%;
     }
 
+    .firstPart {
+        padding: 25px 40px;
+    }
+
     .firstPart .title {
-        font-size: 27px;
+        font-size: 45px;
     }
 
     .firstPart .city {
-        font-size: 21px;
+        font-size: 20px;
     }
 
     .firstPart div p {
-        font-size: 17px;
+        font-size: 20px;
         padding: 10px 0;
     }
 
     .firstPart a {
-        padding: 3px 0;
+        padding: 10px 5px;
     }
 
     .firstPart p {
@@ -110,30 +114,17 @@ and (max-device-width : 1023px) {
         font-size: 32px;
     }
 
-    .firstPart .triangles-left {
-        position: absolute;
-        width: 20px;
-        left: -19px;
-        top: 0px;
-    }
-
-    .secondPart .triangles-right {
-        right: -20px;
-        width: 20px;
-    }
-
-    .secondPart .bullets {
-        left: -14px;
-        width: 6px;
+    .secondPart {
+        padding: 0 20px;
     }
 
     .secondPart .moths-left {
-        font-size: 18px;
+        font-size: 21px;
         width: 86%;
     }
 
     .secondPart .price-actual {
-        font-size: 47px;
+        font-size: 55px;
     }
 
     .secondPart .price-outOfDated {
@@ -166,58 +157,31 @@ and (max-device-width : 1023px) {
         font-size: 30px;
     }
 
-
-    .daily-program {
-    	padding: 15px 0;
-    }
-
     .daily-program ul li {
     	width: 37%;
-        margin-top: 24px;
     }
 
     .daily-program h2 {
-    	padding:0;
         font-size: 32px;
-    }
-
-    .daily-block-footer {
-    	margin-bottom:0;
     }
 
     .daily-block-footer h3 {
     	width: 50%;
     }
 
-
-    .second-day {
-    	padding-bottom: 38px;
-    }
-
-    .Order-button {
-    	margin:  0;
+    .daily-block-footer img {
+        position: absolute;
+        top: -85px;
+        right: 45px;
+        width: 70px;
     }
 
     .Order-button a {
-        margin: 0;
         height: 50px;
     }
 
     .order-phoneNumber {
-        margin: 0;
         font-size: 27px;
-    }
-
-    .third-day h2 {
-    	margin: 40px 0 -8px;
-    }
-
-    .third-day .daily-block-footer {
-    	margin-bottom: 50px;
-    }
-
-    .daily-block-footer {
-    	margin-top: 20px;
     }
 
     .daily-block-footer p {
@@ -228,13 +192,8 @@ and (max-device-width : 1023px) {
         font-size: 25px;
     }
 
-    .fouth-day .daily-block-footer {
-    	margin: 20px 0;
-    }
-
     .photo-collage p {
         font-size: 36px;
-    	padding: 0px 0 35px;
     }
 
     .photo-collage div {

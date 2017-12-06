@@ -24,6 +24,7 @@
         <link rel="stylesheet" href="style/min-768---max-1023.css">
         <link rel="stylesheet" href="style/min-480---max-767.css">
         <link rel="stylesheet" href="style/min-310---max-479.css">
+        <link rel="stylesheet" href="style/min_1651.css">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     </head>
@@ -57,15 +58,13 @@
 
                 <script>
                     $('.hamburger-icon').click(function(){
-                        $('.submenu').slideToggle(1000)
+                        $('.submenu').slideToggle(200)
                     })
                 </script>
-
-                <img src="design/img_pack/clipart/telephone.png" class='phone-button' alt="">
                 <div class='phone-button-slide'>
                         <ul>
                             <li>
-                                <i class="fa fa-mobile" aria-hidden="true"></i>
+                                <i id='cellphone' class="fa fa-mobile" aria-hidden="true"></i>
                             </li>
                             <li>
                                 <h3>Консультація:</h3>
@@ -75,13 +74,8 @@
                 </div>
 
                 <script>
-                    $('.phone-button').click(function(){
-                        $('.phone-button').fadeOut(300)
-                        $('.phone-button-slide').fadeIn(2000)
-                    })
                     $('.phone-button-slide').click(function(){
-                        $('.phone-button-slide').fadeOut(300)
-                        $('.phone-button').fadeIn(2000)
+                        $('.phone-button-slide').toggleClass('phone-button-hidden')
                     })
                 </script>
         </header>
@@ -295,8 +289,7 @@
                     <h3>РОДЗИНКА ДНЯ</h3>
                     <p >00:00 З новим 2018 Роком! Запальна Новорічна  гуцульська вечірка</p>
                 </div>
-            </section>'
-
+            </section>
             <section class='Order-button'>
                 <a href="#"  class='registration-button'>
                     <div><i class="fa fa-ticket" aria-hidden="true"></i></div>
@@ -305,7 +298,6 @@
 
                 <p class='order-phoneNumber'>Замовити +380961121111</p>
             </section>
-            
             <section class='daily-program  third-day' >
                 <h2>День 3 ПОНЕДІЛОК</h2>
                 <ul>
@@ -508,11 +500,22 @@
         <script>
              $('.registration-button').click(function(){
                 $('.modal').css('display','block')
+                $('.phone-button-slide').css('display','none');
              })
 
              $('#close').click(function(){
                 $('.modal').css('display','none')
+                $('.phone-button-slide').css('display','block')
              })
+
+             $('.modal').click(function(event){
+                if($(event.target).closest('div.modal-windows').length) return;
+                $('.modal').css('display','none')
+                $('.phone-button-slide').css('display','block')
+
+                event.stopPropagation();
+             })
+            
 
         </script>
 

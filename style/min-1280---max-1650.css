@@ -14,53 +14,18 @@ and (max-device-width : 1650px) {
     	font-size: 17px;
     }
 
-    .daily-program {
-    	padding: 15px 0;
-    }
-
     .daily-program ul li {
-    	width: 25%;
-    }
-
-    .daily-program h2 {
-    	padding: 15px 0;
-    }
-
-    .daily-block-footer {
-    	margin-bottom:0;
+    	width: 20%;
     }
 
     .daily-block-footer h3 {
     	width: 50%;
     }
 
-    .second-day {
-    	padding-bottom: 38px;
-    }
-
     .Order-button {
     	margin: 0;
     }
 
-    .third-day h2 {
-    	margin: 40px 0 -8px;
-    }
-
-    .third-day .daily-block-footer {
-    	margin-bottom: 50px;
-    }
-
-    .daily-block-footer {
-    	margin-top: 20px;
-    }
-
-    .fouth-day .daily-block-footer {
-    	margin: 20px 0;
-    }
-
-    .photo-collage p {
-    	padding: 0px 0 35px;
-    }
 }
 
 

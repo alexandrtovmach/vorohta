@@ -121,17 +121,17 @@ and (max-device-width : 767px) {
     }
 
     .firstPart .title {
-        font-size: 27px;
+        font-size: 34px;
         width: 200px;
         margin: 15px 0 20px;
     }
 
     .firstPart .city {
-        font-size: 21px;
+        font-size: 25px;
     }
 
     .firstPart div p {
-        font-size: 17px;
+        font-size: 20px;
         padding: 10px 0;
     }
 
@@ -173,34 +173,17 @@ and (max-device-width : 767px) {
         width: 298px;
     }
 
-    .secondPart .triangles-right {
-       transform: rotate(450deg);
-        position: absolute;
-        width: 21px;
-        height: 297px;
-        left: 138px;
-        top: 68px;
-}
-
-    .secondPart .bullets {
-        top: -161px;
-        height: 304px;
-        transform: rotate(450deg);
-        left: 130px;
-        width: 11px;
-    }
-
     .secondPart .moths-left {
-        font-size: 18px;
+        font-size: 20px;
         width: 86%;
     }
 
     .secondPart .price-actual {
-        font-size: 47px;
+        font-size: 55px;
     }
 
     .secondPart .price-outOfDated {
-        font-size: 23px;
+        font-size: 25px;
         margin-right: 10px;
         margin-bottom: 15px;
     }
@@ -236,20 +219,12 @@ and (max-device-width : 767px) {
         width: 35px;
     }
 
-
-    .daily-program {
-    	padding: 15px 0;
-    }
-
     .daily-program ul li {
     	width: 340px;
-        margin-top: 24px;
     }
 
     .daily-program h2 {
-    	padding:0;
         font-size: 32px;
-        margin-bottom: -10px;
     }
 
     .daily-program .circle-time {
@@ -265,10 +240,6 @@ and (max-device-width : 767px) {
         font-size: 13px;
     }
 
-    .daily-block-footer {
-    	margin-bottom:0;
-    }
-
     .daily-block-footer h3 {
     	width: 50%;
     }
@@ -277,19 +248,14 @@ and (max-device-width : 767px) {
         font-size: 15px;
     }
     
-    .second-day {
-    	padding-bottom: 38px;
-    }
-
     .Order-button {
+        margin-top: 0;
         flex-direction: column;
         justify-content: space-around;
-    	padding: 20px 0;
     }
 
     .Order-button a {
         width: 175px;
-        margin: 0;
         height: 50px;
     }
 
@@ -298,12 +264,10 @@ and (max-device-width : 767px) {
     }
 
     .order-phoneNumber {
-        margin: 0;
         font-size: 19px;
     }
 
     .Order-button a div i {
-
         margin-right: 10px;
         color: white;
         font-size: 30px;
@@ -311,18 +275,6 @@ and (max-device-width : 767px) {
 
     .third-day  {
         background-size: 50% auto;
-    }
-
-    .third-day h2 {
-    	margin: 10px 0 -8px;
-    }
-
-    .third-day .daily-block-footer {
-    	margin-bottom: 50px;
-    }
-
-    .daily-block-footer {
-    	margin-top: 20px;
     }
 
     .daily-block-footer p {
@@ -337,20 +289,15 @@ and (max-device-width : 767px) {
         background-size:100% auto;
     }
 
-    .fouth-day .daily-block-footer {
-    	margin: 20px 0;
-    }
-
     .daily-block-footer img {
         position: absolute;
-        top: -52px;
-        right: 9px;
+        top: -58px;
+        right: 29px;
         width: 45px;
     }
 
     .photo-collage p {
         font-size: 32px;
-    	padding: 0px 0 35px;
     }
 
     .photo-collage div {
@@ -433,7 +380,19 @@ and (max-device-width : 767px) {
     ::-moz-placeholder          { font-size: 13px;color:grey;font-family: "Ubuntu";}/* Firefox 19+ */
     :-moz-placeholder           { font-size: 183px;color:grey;font-family: "Ubuntu";}/* Firefox 18- */
     :-ms-input-placeholder      { font-size: 183px;color:grey;font-family: "Ubuntu";}
+    
 
+    .phone-button-slide ul li i {
+        font-size: 60px;
+    }
+
+    .phone-button-slide ul li h3 {
+        font-size: 20px;
+    }
+
+    .phone-button-slide ul li p {
+        font-size: 
+    }
 }
 
 
