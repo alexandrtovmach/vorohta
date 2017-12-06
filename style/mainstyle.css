@@ -110,6 +110,65 @@ header {
 	text-align: center;
 }
 
+/*------------------.phone-button ----------------*/
+.phone-button   {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 70px;
+	height: 70px;
+	cursor: pointer;
+}
+
+.phone-button-slide {
+	cursor: pointer;
+	display: none;
+	position: fixed;
+	bottom: 0;
+	right: 0px;
+	background-color: #5B07B2;
+	box-shadow: -2px -2px 3px rgba(255,255,255, 0.8);
+}
+
+.phone-button-slide ul {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.phone-button-slide ul li i {
+	font-size: 80px;
+	align-self: center;
+	margin-left: 20px;
+}
+
+.phone-button-slide ul li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	padding: 20px 30px 20px 10px;
+}
+
+.phone-button-slide ul li:first-child {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.phone-button-slide ul li h3 {
+	font-family: "Kurale";
+	color: white;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+.phone-button-slide ul li p {
+	font-family: "Kurale";
+	color: white;
+	font-size: 30px;
+}
 /*------------------SECTION #section-main-------------------*/
 
 
@@ -949,33 +1008,6 @@ footer {
 	background-color: #FDA600;
 }
 
-
-
-/*--------- BUTTON TO TOP----------*/
-
-#toTop {
-	width: 100px;
-	height: 102px;
-	background-size: cover;
-	background:rgba(250, 40, 225, 1);
-	text-align:center;
-	position:fixed;
-	bottom:0; /* отступ кнопки от нижнего края страницы*/
-	right:0;
-	cursor:pointer;
-	display:none;
-	color:#333;
-	font-size:21px;
-}
-
-#toTop i {
-	position: fixed;
-	bottom: 20px;
-	right: 24px;
-	font-size: 35px;
-	color: white;
-}
-
 /*-------------css for  placeholder at the Footer-------------*/
 ::-webkit-input-placeholder { font-size: 18px;color:grey;font-family: "Ubuntu";}
 ::-moz-placeholder          { font-size: 18px;color:grey;font-family: "Ubuntu";}/* Firefox 19+ */
@@ -984,3 +1016,80 @@ footer {
 
 
 /*------------------MODAL WINDOWS  REGISTRATIONS-----------------------*/
+
+.modal {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0,0,0, 0.8);
+}
+
+.modal-windows {
+	position: relative;
+	width: 70%;
+	max-width: 900px;
+	background: #5B07B2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	margin-top: 15%;
+	color: white;
+}
+
+.modal-windows h3 {
+	font-family: "Ubuntu";
+	font-size: 50px;
+	text-align: center;
+	line-height: 80px;
+}
+
+.modal-windows .register-form {
+	width: 100%;
+	margin: 20px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.modal-windows .register-form a {
+	font-family: "Ubuntu";
+	font-weight: bold;
+	font-size: 25px;
+	background-color: #11C253;
+	padding: 20px 30px;
+	color: white;
+}
+
+.modal-windows .register-form div {
+	padding: 0 30px;
+}
+
+.modal-windows .register-form div p:first-child {
+	font-family: "Kurale";
+	font-size: 30px;
+}
+
+.modal-windows .register-form div p:nth-child(2) {
+	font-family: "Kurale";
+	font-size: 40px;
+	margin-top: 10px;
+}
+
+.modal-windows img {
+	width: 180px;
+}
+
+.modal-windows span i {
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	font-size: 35px;
+	cursor: pointer;
+}

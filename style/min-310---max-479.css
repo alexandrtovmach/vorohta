@@ -49,7 +49,7 @@ and (max-device-width : 479px) {
 
     .logo-image {
         background-image: url(..design/img_pack/logo.png);
-        width: 40%;
+        width: 50%;
     }
 
     .header-logo img {
@@ -451,6 +451,54 @@ and (max-device-width : 479px) {
         text-align: center;
         font-size: 13px;
     }
+
+    .phone-button {
+        bottom: 10px;
+        right: 10px;
+        width: 65px;
+        height: 65px;
+    }
+
+    .modal-windows {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .modal-windows h3 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-top: 30px;
+    }
+
+    .modal-windows .register-form {
+        flex-direction: column-reverse;
+    }
+
+    .modal-windows .register-form a {
+        width: 80%;
+        text-align: center;
+    }
+
+    .modal-windows .register-form div p:first-child {
+        font-size: 25px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .modal-windows .register-form div p:nth-child(2) {
+        font-size: 30px;
+    }
+
+    .modal-windows .register-form a {
+        margin:20px 0 0 0;
+    }
+
+    .modal-windows span i {
+        top: 20px;
+        right: 20px;
+    }
+
+
 
     ::-webkit-input-placeholder { font-size: 183px;color:grey;font-family: "Ubuntu";}
     ::-moz-placeholder          { font-size: 13px;color:grey;font-family: "Ubuntu";}/* Firefox 19+ */

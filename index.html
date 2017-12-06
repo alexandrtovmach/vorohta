@@ -61,10 +61,35 @@
                     })
                 </script>
 
+                <img src="design/img_pack/clipart/telephone.png" class='phone-button' alt="">
+                <div class='phone-button-slide'>
+                        <ul>
+                            <li>
+                                <i class="fa fa-mobile" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <h3>Консультація:</h3>
+                                <p>+80991234567</p>
+                        </li>
+                        </ul>     
+                </div>
 
+                <script>
+                    $('.phone-button').click(function(){
+                        $('.phone-button').fadeOut(300)
+                        $('.phone-button-slide').fadeIn(2000)
+                    })
+                    $('.phone-button-slide').click(function(){
+                        $('.phone-button-slide').fadeOut(300)
+                        $('.phone-button').fadeIn(2000)
+                    })
+                </script>
         </header>
 
         <main>
+            
+                
+            </div>
             <section class="section-main">
 
                 
@@ -210,8 +235,6 @@
                     <p >Відвідаємо унікальний <b>«Музей Писанки»</b>, що занесений до Книги рекордів Гіннеса.</p>
                 </div>
                 <ul>
-                    <!-- <img src="design/img_pack/clipart/tree_bg.png" class='christmas-tree' alt=""> -->
-
             </section>
 
             <section class='daily-program second-day' >
@@ -275,7 +298,7 @@
             </section>'
 
             <section class='Order-button'>
-                <a href="#">
+                <a href="#"  class='registration-button'>
                     <div><i class="fa fa-ticket" aria-hidden="true"></i></div>
                     <p>ЗАБРОНЮВАТИ</p>
                 </a>
@@ -415,7 +438,7 @@
                         </div>
                         <p class='title'>Гуцульский Новий Рік</p>
                         <p class='city'>Ворохта</p>
-                        <a href="#">
+                        <a href="#" class='registration-button'>
                             <div><i class="fa fa-ticket" aria-hidden="true"></i></div>
                             <p>ЗАБРОНЮВАТИ</p>
                         </a>
@@ -467,23 +490,30 @@
         </footer>
 
         <!-- BUTTON TO TOP-->
-        <div id = "toTop" style='background: url("design/img_pack/0_d3631_bb506568_S.png")'>
-            
+        <div class='modal'>
+            <div class='modal-windows'>
+                <span class='close'><i class="fa fa-times" aria-hidden="true" id='close'></i></span>
+                <h3>Забронювати квиток<br>або</h3>
+                <div class='register-form'>
+                    <a href="">ФОРМА РЕЄСТРАЦІЇ</a>
+                    <div>
+                        <p>за телефоном</p>
+                        <p>+380961177545</p>
+                    </div>
+                </div>
+                <img src="design/img_pack/logo_white.png">
+            </div>
         </div>
 
         <script>
-            $(function() {
-            $(window).scroll(function() {
-            if($(this).scrollTop() != 0) {
-            $('#toTop').fadeIn();
-            } else {
-            $('#toTop').fadeOut();
-            }
-            });
-            $('#toTop').click(function() {
-            $('body,html').animate({scrollTop:0},500);
-            });
-            });
+             $('.registration-button').click(function(){
+                $('.modal').css('display','block')
+             })
+
+             $('#close').click(function(){
+                $('.modal').css('display','none')
+             })
+
         </script>
 
     </body>
