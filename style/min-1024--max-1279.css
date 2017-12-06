@@ -52,13 +52,16 @@ and (max-device-width : 1279px) {
     }
 
     .daily-program ul li {
-    	width: 25%;
-    	height: 370px;
+    	flex: 1 0 25%;
         margin-top: 24px;
     }
 
     .daily-program h2 {
     	padding: 15px 0;
+    }
+
+    .daily-program ul li p {
+        margin: 25px 15px;
     }
 
     .daily-block-footer {
@@ -67,10 +70,6 @@ and (max-device-width : 1279px) {
 
     .daily-block-footer h3 {
     	width: 50%;
-    }
-
-    .first-day {
-        background-size: 24% 11%;
     }
 
     .second-day {

@@ -245,9 +245,8 @@ main img {
 .section-promise ul li div {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
-	width: 15%;
+	width: 20%;
 	height: 100%;
 }
 
@@ -260,9 +259,9 @@ main img {
 	font-family: "Ubuntu";
 	font-size: 18px;
 	width: 75%;
+	height: 100%;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
 }
 
 
@@ -290,7 +289,7 @@ main img {
 	justify-content: center;
 	align-items: center;
 	width: 60%;
-	padding: 6px 0;
+	padding: 20px 0;
 	background-color: #FDA600;
 }
 
@@ -345,7 +344,7 @@ main img {
 }
 
 .firstPart .title {
-	margin: 0;
+	margin: 10px 0;
 	width: 400px;
 	padding: 2px 0;
 	font-family: "Ubuntu";
@@ -528,6 +527,7 @@ main img {
 	align-items: center;
 	height: 100%;
 	padding: 0 10px;
+	width: 10%;
 }
 
 .what-included ul li div i {
@@ -575,12 +575,12 @@ main img {
 .third-day {
 	background: url(../design/img_pack/clipart/snowman.png) bottom right; 
 	background-repeat: no-repeat;
-	background-size: 48% auto;
+	background-size: auto 50%;
 }
 
 .fouth-day {
 	background: url(../design/img_pack/clipart/santa2.png) no-repeat bottom left,  #5B07B2; 
-	background-size: 80% auto;
+	background-size: auto 50%;
 }
 
 
@@ -616,8 +616,7 @@ main img {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-around;;
-	align-items: center;
+	justify-content: space-around;
 }
 
 
@@ -644,11 +643,11 @@ main img {
 }
 
 .daily-program ul li {
+	background-color: rgba( 255, 255, 255, 0.95);
 	position: relative;
-	background-color: #FAFAFA;
-	width: 24%;
-	height: 375px;
-	margin: 20px;
+	background-color: 
+	flex: 1 0 25%;
+	margin: 35px;
 }
 
 
@@ -665,14 +664,16 @@ main img {
 	font-weight: bold;
 	text-align: center;
 	margin: 10px 0;
+	padding: 0 25px;
 }
 
 
 .daily-program ul li p {
-	font-family: "Ubuntu";
+	font-family: "Kurale";
 	font-size: 15px;
-	text-align: justify;
-	padding: 20px 15px;
+	margin:25px;
+	text-indent: 30px;
+	line-height: 18px;
 }
 
 .daily-block-footer {
@@ -823,6 +824,7 @@ main img {
 	flex-direction: column;
 	justify-content: center;
 	width: 100%;
+	
 }
 
 .photo-collage  p {
@@ -831,6 +833,8 @@ main img {
 	text-align:center;
 	align-items: center;
 	padding: 20px 0;
+	color: white;
+	background-color: rgb(39, 7, 85);
 }
 
 .photo-collage div {
@@ -942,15 +946,14 @@ footer {
 /*--------- BUTTON TO TOP----------*/
 
 #toTop {
-	width: 12px;
-	height: 12px;
-	padding: 20px;
-	border-radius: 50%;
+	width: 100px;
+	height: 102px;
+	background-size: cover;
 	background:rgba(250, 40, 225, 1);
 	text-align:center;
 	position:fixed;
-	bottom:10px; /* отступ кнопки от нижнего края страницы*/
-	right:10px;
+	bottom:0; /* отступ кнопки от нижнего края страницы*/
+	right:0;
 	cursor:pointer;
 	display:none;
 	color:#333;

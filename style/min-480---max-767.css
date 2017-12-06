@@ -50,11 +50,7 @@ and (max-device-width : 767px) {
 
     .logo-image {
         background-image: url(..design/img_pack/logo.png);
-        margin-left: -10px;
-        width: 162px;
-        height: 138px;
-        align-self: center;
-        margin-bottom: 15px;
+        width: 40%;
     }
 
     .header-logo img {
@@ -88,14 +84,13 @@ and (max-device-width : 767px) {
     }
 
     .section-main p {
-        text-align: justify;
-        font-size: 13px;
+        font-size: 20px;
         width: 80%;
-        line-height: 15px;
+        line-height: 25px;
     }
 
     .section-main {
-        height: 100vh;
+        height: calc(100vh - 67px);
         padding-top: 130px;
         justify-content: flex-start;
         background-position: 3% 45%;
@@ -249,7 +244,6 @@ and (max-device-width : 767px) {
 
     .daily-program ul li {
     	width: 340px;
-    	height: 287px;
         margin-top: 24px;
     }
 
@@ -283,11 +277,7 @@ and (max-device-width : 767px) {
     .daily-program ul li h3 {
         font-size: 15px;
     }
-
-    .first-day {
-        background-size: 100% 24%;
-    }
-
+    
     .second-day {
     	padding-bottom: 38px;
     }
@@ -295,7 +285,7 @@ and (max-device-width : 767px) {
     .Order-button {
         flex-direction: column;
         justify-content: space-around;
-    	margin-top:  -20px;
+    	padding: 20px 0;
     }
 
     .Order-button a {
@@ -321,7 +311,7 @@ and (max-device-width : 767px) {
     }
 
     .third-day  {
-        background-size: 98% 38%;
+        background-size: 50% auto;
     }
 
     .third-day h2 {
@@ -342,6 +332,10 @@ and (max-device-width : 767px) {
 
     .daily-block-footer h3 {
         font-size: 18px;
+    }
+
+    .fouth-day {
+        background-size:100% auto;
     }
 
     .fouth-day .daily-block-footer {

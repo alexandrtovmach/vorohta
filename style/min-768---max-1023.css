@@ -150,7 +150,7 @@ and (max-device-width : 1023px) {
 
     .what-included h2 {
     	padding: 18px 0;
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .what-included ul li p {
@@ -168,7 +168,6 @@ and (max-device-width : 1023px) {
 
     .daily-program ul li {
     	width: 37%;
-    	height: 363px;
         margin-top: 24px;
     }
 
@@ -185,9 +184,6 @@ and (max-device-width : 1023px) {
     	width: 50%;
     }
 
-    .first-day {
-        background-size: 22% 6%;
-    }
 
     .second-day {
     	padding-bottom: 38px;
