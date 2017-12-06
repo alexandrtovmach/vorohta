@@ -49,7 +49,7 @@ and (max-device-width : 479px) {
 
     .logo-image {
         background-image: url(..design/img_pack/logo.png);
-        width: 60%;
+        width: 40%;
     }
 
     .header-logo img {
@@ -61,12 +61,19 @@ and (max-device-width : 479px) {
         width: 100px;
     }
 
+
+    .section-main {
+        height: calc(100vh - 67px);
+        margin-top: 67px;
+        background-position: center center;
+    }
+
     .header-phoneNumber {
         margin-right: 40px;
     }
 
     .section-main h1 {
-        font-size: 30px;
+        font-size: 25px;
         margin: 10px 0;
     }
 
@@ -84,21 +91,13 @@ and (max-device-width : 479px) {
     }
 
     .section-main p {
-        font-size: 20px;
+        font-size: 15px;
         width: 80%;
-        line-height: 22px;
-    }
-
-    .section-main {
-        height: 100vh;
-        padding-top: 80px;
-        justify-content: flex-start;
-        background-position: center center;
+        line-height: 18px;
     }
 
     .black-wrap {
         height: 100vh;
-        padding-top: 130px;
     }
 
     main img {
@@ -108,7 +107,7 @@ and (max-device-width : 479px) {
     }
 
     .section-main span {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .title {
