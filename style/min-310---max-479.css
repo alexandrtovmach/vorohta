@@ -133,11 +133,14 @@ and (max-device-width : 479px) {
         font-size: 36px;
     }
 
-    .what-included ul {
+    .what-points ul {
         padding-bottom: 85px;
-        background-size: 100% 17%;
     }
 
+    .included ul {
+        padding-bottom: 30px;
+    }
+    
     .firstPart .title {
         font-size: 34px;
         width: 200px;
@@ -233,7 +236,7 @@ and (max-device-width : 479px) {
         width: 107px;
     }
 
-    .what-included ul li {
+    .what-points ul li {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -243,21 +246,21 @@ and (max-device-width : 479px) {
         padding: 5px 0;
     }
 
-    .what-included h2 {
+    .what-points h2 {
     	padding: 18px 0;
         font-size: 30px;
     }
 
-    .what-included ul li p {
+    .what-points ul li p {
         text-align: left;
     	font-size: 15px;
     }
 
-    .what-included ul li div {
+    .what-points ul li div {
         padding: 0 0px 0 15px;
     }
 
-    .what-included ul li div i {
+    .what-points ul li div i {
         font-size: 25px;
         width: 35px;
     }
