@@ -26,6 +26,10 @@ and (min-device-width : 1651px)  {
     	padding: 18px 0;
     }
 
+    .notincluded {
+        background-size: auto 30%;
+    }
+
     .what-points ul li p {
     	font-size: 17px;
     }

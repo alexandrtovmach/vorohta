@@ -560,12 +560,10 @@ main img {
 	margin: 0;
 	background-size: 100% auto;
 	background-position: bottom;
-	background-repeat: no-repeat;
+	background-repeat: repeat-x;
 }
 .included {
-	background-position-x: 50%;
 	background-color: #062650;
-	/* background-image: url('../images/clipart/christmas_tree_bg_clipart.png'); */
 }
 .notincluded {
 	background-color: #0049A6;
