@@ -98,6 +98,10 @@ and (max-device-width : 1279px) {
         height: auto;
     }
 
+    .phone-button-slide ul li {
+        padding: 10px 9px 10px 15px;
+    }
+
 }
 
 

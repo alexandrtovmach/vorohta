@@ -36,6 +36,10 @@ and (max-device-width : 1650px) {
         margin-top: 10%;
     }
 
+    .phone-button-slide ul li {
+        padding: 10px 8px 10px 15px;
+    }
+
 }
 
 
