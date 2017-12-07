@@ -59,6 +59,10 @@ and (min-device-width : 1651px)  {
         font-size: 380%;
     }
 
+    .phone-button-slide ul li {
+        padding: 10px 8px 10px 15px;
+    }
+
 }
 
 

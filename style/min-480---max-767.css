@@ -50,7 +50,7 @@ and (max-device-width : 767px) {
 
     .logo-image {
         /* background-image: url(..design/img_pack/logo.png); */
-        width: 40%;
+        width: 210px;
     }
 
     .header-logo img {
@@ -420,8 +420,8 @@ and (max-device-width : 767px) {
         font-size: 20px;
     }
 
-    .phone-button-slide ul li p {
-        font-size: 
+    .phone-button-slide ul li {
+        padding: 10px 8px 10px 15px;
     }
 }
 
