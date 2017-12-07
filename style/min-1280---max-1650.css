@@ -26,6 +26,16 @@ and (max-device-width : 1650px) {
     	margin: 0;
     }
 
+    .Order-button a {
+        padding: 10px 20px;
+    }
+
+    .modal-windows {
+        height: auto;
+        width: 80%;
+        margin-top: 10%;
+    }
+
 }
 
 

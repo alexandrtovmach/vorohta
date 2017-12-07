@@ -95,6 +95,16 @@ and (max-device-width : 767px) {
         background-position: 3% 45%;
     }
 
+    .section-main h1 > div {
+        position: static;
+        width: 280px;
+        font-size: 25px;
+        top: -60px;
+        right: 0px;
+        padding: 10px 15px;
+        margin: 10px auto 0;
+    }
+
     .black-wrap {
          height: 100vh;
         padding-top: 130px;
@@ -351,11 +361,24 @@ and (max-device-width : 767px) {
         height: 65px;
     }
 
+    .modal {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-windows {
+       margin: center;
+       height: auto;
+    }
+
 
     .modal-windows h3 {
-        font-size: 40px;
-        line-height: 50px;
-        margin-top: 30px;
+        width: 90%;
+        font-size: 30px;
+        line-height: 35px;
+        margin-top: 20px;
     }
 
     .modal-windows .register-form {
@@ -365,22 +388,26 @@ and (max-device-width : 767px) {
     .modal-windows .register-form div p:first-child {
         font-size: 25px;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .modal-windows .register-form div p:nth-child(2) {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .modal-windows .register-form a {
-        margin:20px 0 0 0;
+        padding: 15px 20px;
+        margin: 25px 0 0 0;
     }
 
     ::-webkit-input-placeholder { font-size: 183px;color:grey;font-family: "Ubuntu";}
     ::-moz-placeholder          { font-size: 13px;color:grey;font-family: "Ubuntu";}/* Firefox 19+ */
     :-moz-placeholder           { font-size: 183px;color:grey;font-family: "Ubuntu";}/* Firefox 18- */
     :-ms-input-placeholder      { font-size: 183px;color:grey;font-family: "Ubuntu";}
-    
+
+    .phone-button-slide ul li {
+        padding: 10px 17px 10px 15px;
+    }
 
     .phone-button-slide ul li i {
         font-size: 60px;

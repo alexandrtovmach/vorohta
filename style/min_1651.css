@@ -50,6 +50,15 @@ and (min-device-width : 1651px)  {
     	padding: 15px 20px;
     }
 
+    .modal-windows {
+        height: auto;
+        margin-top: 10%;
+    }
+
+    .modal-windows h3 {
+        font-size: 380%;
+    }
+
 }
 
 

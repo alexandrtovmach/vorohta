@@ -94,6 +94,10 @@ and (max-device-width : 1279px) {
     	margin: 20px 0;
     }
 
+    .modal-windows {
+        height: auto;
+    }
+
 }
 
 

@@ -68,6 +68,24 @@ and (max-device-width : 479px) {
         background-position: center center;
     }
 
+    .section-main h1 > div > span {
+        font-size: 20px;
+    }
+
+    .section-main h1 > div {
+        position: static;
+        width: 190px;
+        font-size: 17px;
+        top: -60px;
+        right: 0px;
+        padding: 10px 15px;
+        margin: 10px auto 0;
+    }
+
+    .section-main h1 > div > span {
+        font-size: 17px;
+    }
+
     .header-phoneNumber {
         margin-right: 40px;
     }
@@ -353,7 +371,7 @@ and (max-device-width : 479px) {
     .daily-block-footer img {
         position: absolute;
         top: -59px;
-        right: 9px;
+        right: 0;
         width: 45px;
     }
 
@@ -429,9 +447,10 @@ and (max-device-width : 479px) {
     }
 
     .modal-windows h3 {
-        font-size: 40px;
-        line-height: 50px;
-        margin-top: 30px;
+        font-size: 30px;
+        line-height: 35px;
+        margin-top: 55px;
+        margin-bottom: -20px;
     }
 
     .modal-windows .register-form {
@@ -444,22 +463,29 @@ and (max-device-width : 479px) {
     }
 
     .modal-windows .register-form div p:first-child {
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
         margin-top: 20px;
     }
 
     .modal-windows .register-form div p:nth-child(2) {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .modal-windows .register-form a {
+        font-size: 20px;
         margin:20px 0 0 0;
     }
 
     .modal-windows span i {
-        top: 20px;
+        top: 25px;
         right: 20px;
+        font-size: 20px;
+    }
+
+    .modal-windows img {
+        width: 155px;
+        margin-bottom: 20px;
     }
 
     ::-webkit-input-placeholder { font-size: 183px;color:grey;font-family: "Ubuntu";}
@@ -468,8 +494,9 @@ and (max-device-width : 479px) {
     :-ms-input-placeholder      { font-size: 183px;color:grey;font-family: "Ubuntu";}
     
     .phone-button-slide ul li {
-    padding: 10px 30px 10px 15px;
-}
+        padding: 10px 34px 10px 15px;
+    }
+    
 
 
 .phone-button-slide ul li i {

@@ -62,6 +62,12 @@ and (max-device-width : 1023px) {
         font-size: 55px;
     }
 
+    .section-main h1 > div {
+        font-size: 20px;
+        top: -35px;
+        right: -40px;
+    }
+
     .section-promise ul li p {
         font-size: 15px;
     }
@@ -210,6 +216,7 @@ and (max-device-width : 1023px) {
 
     .contacts ul li h4 {
         font-size: 16px;
+        text-align: center;
     }
 
     .contacts ul li span {
@@ -238,6 +245,9 @@ and (max-device-width : 1023px) {
         right: 10px;
         width: 65px;
         height: 65px;
+    }
+    .modal-windows {
+        height: auto;
     }
 
     .modal-windows h3 {
