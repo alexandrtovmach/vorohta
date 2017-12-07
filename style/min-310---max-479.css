@@ -48,7 +48,7 @@ and (max-device-width : 479px) {
     }
 
     .logo-image {
-        background-image: url(..design/img_pack/logo.png);
+        /* background-image: url(..design/img_pack/logo.png); */
         width: 50%;
     }
 
@@ -268,7 +268,7 @@ and (max-device-width : 479px) {
     	width: 340px;
     	height: auto;
         margin: 10px;
-        background-color: #FDA600;
+        background-color: #FD9C00;
     }
 
     .daily-program h2 {
@@ -424,7 +424,7 @@ and (max-device-width : 479px) {
 
     .subscribe a {
         width: 150px;
-        padding: 6px;
+        padding: 9px;
         font-size: 14px;
     }
 
@@ -488,10 +488,10 @@ and (max-device-width : 479px) {
         margin-bottom: 20px;
     }
 
-    ::-webkit-input-placeholder { font-size: 183px;color:grey;font-family: "Ubuntu";}
-    ::-moz-placeholder          { font-size: 13px;color:grey;font-family: "Ubuntu";}/* Firefox 19+ */
-    :-moz-placeholder           { font-size: 183px;color:grey;font-family: "Ubuntu";}/* Firefox 18- */
-    :-ms-input-placeholder      { font-size: 183px;color:grey;font-family: "Ubuntu";}
+    ::-webkit-input-placeholder { font-size: 13px;color:grey;font-family: "Ubuntu";}
+    ::-moz-placeholder          { font-size: 13px;color:grey;font-family: "Ubuntu";}
+    :-moz-placeholder           { font-size: 13px;color:grey;font-family: "Ubuntu";}
+    :-ms-input-placeholder      { font-size: 13px;color:grey;font-family: "Ubuntu";}
     
     .phone-button-slide ul li {
         padding: 10px 34px 10px 15px;

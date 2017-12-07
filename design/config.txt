@@ -1,5 +1,5 @@
-orange: #FDA600
-violet: #5B07B2
+orange: #FD9C00
+violet: #0049A6
 green : #12C254
 
 //breakpoints
