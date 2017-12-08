@@ -48,7 +48,6 @@ and (max-device-width : 479px) {
     }
 
     .logo-image {
-        /* background-image: url(..design/img_pack/logo.png); */
         width: 210px;
     }
 

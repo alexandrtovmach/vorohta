@@ -18,7 +18,7 @@ header {
 	width: 100px;
 	height: 100%;
 	background-size: cover;
-	background-image: url("../images/logo.png");
+	background-image: url("http://d.zaix.ru/59vz.png");
 }
 
 .header-list-menu {
@@ -180,7 +180,7 @@ header {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	background-image: url('../images/main_bg.jpg');
+	background-image: url('http://d.zaix.ru/5bHP.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position:0 85% ;
@@ -212,7 +212,7 @@ header {
 
 .logo-image {
 
-	background-image: url('../images/logo.png');
+	background-image: url('http://d.zaix.ru/59vz.png');
 	width:200px;
 	height: 200px;
 	align-self: center;
