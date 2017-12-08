@@ -134,6 +134,7 @@ header {
 }
 
 .phone-button-slide ul li i {
+	padding-right: 5px;
 	font-size: 80px;
 	align-self: center;
 }
@@ -180,34 +181,12 @@ header {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	background-image: url('../images/main_bg.jpg');
+	background-image: url('../images/main_bg5.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position:0 85% ;
+	background-position:center center;
 	height: calc(100vh - 97px);
     margin-top: 97px;
-}
-
-
-.section-main {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.section-main > * {
-	z-index: 0;
-}
-
-.black-wrap {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100vh;
-	background-color: rgba(0,0,0, 0.5);
-	z-index: 0;
 }
 
 .logo-image {
@@ -220,12 +199,6 @@ header {
 	background-size: cover;
 }
 
-main img {
-	margin-left: -13px;
-	width: 225px;
-	height: 221px;
-}
-
 .section-main span {
 	font-family: "Ubuntu";
 	font-size: 26px;
@@ -234,7 +207,7 @@ main img {
 
 .section-main h1 {
 	position: relative;
-	color: white;
+	color: #FD9C00;
 	font-family: "Ubuntu";
 	font-weight: bold;
 	font-size: 400%;
@@ -255,7 +228,9 @@ main img {
 }
 
 .section-main h1 > div > span {
- 	font-size: 25px;
+	 font-size: 25px;
+	 color: #FD9C00;
+
  }
 
 .section-main p {
@@ -332,6 +307,25 @@ main img {
 .section-promise ul li div i {
 	font-size: 35px;
 }
+
+.section-promise ul li .icon-image {
+	position: relative;
+}
+
+.section-promise ul li .icon-image img {
+	position: absolute;
+	width: 40px;
+	top: 1px;
+	right: 12px;
+}
+
+.section-promise ul li:nth-child(12) .icon-image img {
+	position: absolute;
+	width: 50px;
+	top: -5px;
+	right: 12px;
+}
+
 
 .section-promise ul li p {
 	flex-grow: 1;
@@ -591,7 +585,7 @@ main img {
 	flex-wrap: wrap;
 	width: 100%;
 	padding-top: 30px;
-	padding-bottom:215px;
+	padding-bottom:150px;
 }
 
 .included ul {
@@ -603,7 +597,7 @@ main img {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	width:300px;
+	width:30%;
 	margin: 10px 0;
 	padding: 5px 0;
 }
@@ -692,6 +686,9 @@ main img {
 	justify-content: space-around;
 }
 
+.ornamented-border {
+	border: 10px solid red;
+}
 
 .daily-program  .circle-time {
 	position: absolute;
@@ -720,13 +717,14 @@ main img {
 }
 
 .daily-program ul li {
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
 	background-color: rgba( 255, 255, 255, 0.95);
 	position: relative;
 	margin: 35px;
 	flex: 1 0 25%;
 }
 
-.daily-program ul li #img {
+.daily-program ul li div:nth-child(2) {
 	width:100%;
 	height: 183px;
 }
@@ -747,6 +745,15 @@ main img {
 	margin:25px;
 	text-indent: 30px;
 	line-height: 18px;
+	text-align: justify;	
+}
+
+.daily-program ul .ornament {
+	position: relative;
+}
+
+.daily-program ul .ornament {
+	position: relative;
 }
 
 .daily-block-footer {
@@ -973,7 +980,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	color: rgba(0,0,0,0.8);
+	color: white;
 }
 
 .subscribe h3 {

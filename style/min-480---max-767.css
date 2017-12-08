@@ -83,6 +83,20 @@ and (max-device-width : 767px) {
         margin-right: 10px;
     }
 
+    .section-promise ul li:nth-child(12) .icon-image img {
+        width: 45px;
+        top: -5px;
+        right: 30px;
+        height: 45px;
+    }
+
+    .section-promise ul li .icon-image img {
+        width: 40px;
+        top: -5px;
+        right: 30px;
+        height: 35px;
+    }
+
     .section-main p {
         font-size: 20px;
         width: 80%;
@@ -123,10 +137,6 @@ and (max-device-width : 767px) {
     .title {
     	padding: 15px 0;
         font-size: 36px;
-    }
-
-    .what-points ul {
-        padding-bottom: 85px;
     }
 
     .included ul {
@@ -230,6 +240,10 @@ and (max-device-width : 767px) {
     .what-points ul li div i {
         font-size: 25px;
         width: 35px;
+    }
+
+    .vacant {
+        display: none;
     }
 
     .daily-program ul li {
@@ -421,7 +435,7 @@ and (max-device-width : 767px) {
     }
 
     .phone-button-slide ul li {
-        padding: 10px 8px 10px 15px;
+        padding: 10px 6px 10px 15px;
     }
 }
 
