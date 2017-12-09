@@ -112,7 +112,7 @@ and (max-device-width : 767px) {
         background-position: 3% 45%;
     }
 
-    .section-main h1 > div {
+    .section-main h1 > .vacant {
         position: static;
         width: 280px;
         font-size: 25px;
@@ -390,6 +390,7 @@ and (max-device-width : 767px) {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 67px;
     }
 
     .modal-windows {

@@ -2,11 +2,12 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ua"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Тур де Львів: Гуцульський новий рік</title>
+        <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -38,8 +39,8 @@
                 <a href="#" class='header-logo' >
                     <div class='header-logo-img'></div>
                 </a>
-                <a class='menu-item'  href="#">ПРО НАС</a>
-                <a class='menu-item'  href="#">ВІДГУКИ</a>
+                <a class='menu-item' target="_blank" href="http://tourdelviv.lviv.ua/about">ПРО НАС</a>
+                <a class='menu-item' target="_blank" href="http://tourdelviv.lviv.ua/reviews">ВІДГУКИ</a>
             </div>
                 <p class='header-phoneNumber'>ЗАМОВИТИ +380980657955</p>
                 <p class='for-small-screen'>+380980657955</p>
@@ -78,11 +79,8 @@
         </header>
 
         <main>
-            
-                
-            </div>
             <section class="section-main">
-
+                <div class="wrap"></div>
                 <div class="logo-image"></div>
                 <span class='ask-invitation'>Гайда з нами на</span>
                 <h1>"Гуцульский Новий Рік"
@@ -466,7 +464,7 @@
 
             <section class='contacts'>
                 <div class='snowflakes-area-top'></div>
-                <h3>Контакты</h3>
+                <h3>Контакти</h3>
                 <ul>
                     <li>
                         <h4>ШУКАЙТЕ НАС ЗА АДРЕСОЮ</h4>
@@ -513,19 +511,19 @@
 
         <script>
              $('.registration-button').click(function(){
-                $('.modal').css('display','block')
+                $('.modal').css('display','flex')
                 $('.phone-button-slide').css('display','none');
              })
 
              $('#close').click(function(){
                 $('.modal').css('display','none')
-                $('.phone-button-slide').css('display','block')
+                $('.phone-button-slide').css('display','flex')
              })
 
              $('.modal').click(function(event){
                 if($(event.target).closest('div.modal-windows').length) return;
                 $('.modal').css('display','none')
-                $('.phone-button-slide').css('display','block')
+                $('.phone-button-slide').css('display','flex')
 
                 event.stopPropagation();
              })

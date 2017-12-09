@@ -62,7 +62,7 @@ and (max-device-width : 1023px) {
         font-size: 55px;
     }
 
-    .section-main h1 > div {
+    .section-main h1 > .vacant {
         font-size: 20px;
         top: -35px;
         right: -40px;

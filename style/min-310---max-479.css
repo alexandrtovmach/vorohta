@@ -67,11 +67,11 @@ and (max-device-width : 479px) {
         background-position: center center;
     }
 
-    .section-main h1 > div > span {
+    .section-main h1 > .vacant > span {
         font-size: 20px;
     }
 
-    .section-main h1 > div {
+    .section-main h1 > .vacant {
         position: static;
         width: 190px;
         font-size: 17px;
@@ -81,7 +81,7 @@ and (max-device-width : 479px) {
         margin: 10px auto 0;
     }
 
-    .section-main h1 > div > span {
+    .section-main h1 > .vacant > span {
         font-size: 17px;
     }
 
@@ -464,6 +464,7 @@ and (max-device-width : 479px) {
     .modal-windows {
         width: 100%;
         height: 100vh;
+        margin-top: 67px;
     }
 
     .modal-windows h3 {

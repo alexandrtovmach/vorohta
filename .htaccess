@@ -1,0 +1,4 @@
+AddDefaultCharset utf-8
+DirectoryIndex index.php
+
+Options All -Indexes
