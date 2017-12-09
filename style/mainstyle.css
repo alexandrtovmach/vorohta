@@ -207,6 +207,18 @@ header {
 	color: white;
 }
 
+.section-main .wrap {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to bottom, transparent 50%, #0049A6);
+	z-index: 0;
+}
+
+.section-main * {
+	z-index: 1;
+}
+
 .section-main h1 {
 	position: relative;
 	font-family: "Ubuntu";
@@ -1072,6 +1084,7 @@ footer {
 	width: 100%;
 	height: 100vh;
 	background-color: rgba(0,0,0, 0.8);
+	z-index: 2;
 }
 
 .modal-windows {
