@@ -20,6 +20,10 @@ and (max-device-width : 767px) {
         display: none;
     }
 
+    .section-main h1 > .liveCalendar {
+        display: none;
+    }
+    
     .header-logo-img {
         width: 72px;
     }

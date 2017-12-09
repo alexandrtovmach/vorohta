@@ -175,6 +175,7 @@ header {
 
 
 .section-main {
+	color: #FD9C00;
 	position: relative;
 	display: flex;
 	flex-direction: column;
@@ -186,7 +187,8 @@ header {
 	background-repeat: no-repeat;
 	background-position:center center;
 	height: calc(100vh - 97px);
-    margin-top: 97px;
+	margin-top: 97px;
+	text-shadow: 0 0 8px black;
 }
 
 .logo-image {
@@ -207,7 +209,6 @@ header {
 
 .section-main h1 {
 	position: relative;
-	color: #FD9C00;
 	font-family: "Ubuntu";
 	font-weight: bold;
 	font-size: 400%;
@@ -216,7 +217,7 @@ header {
 	margin: 20px 0;
 }
 
-.section-main h1 > div {
+.section-main h1 > .vacant {
 	position: absolute;
 	top: -40px;
 	right: -80px;
@@ -224,13 +225,52 @@ header {
 	border-radius: 10px;
 	font-size: 25px;
 	padding: 5px 10px;
+	color: white;
 	box-shadow: 2px 2px 2px rgba(0,0,0, 0.5);
+}
+
+.section-main h1 > .liveCalendar {
+	position: absolute;
+	top: -105px;
+	right: -20px;
+	font-size: 50px;
+	color: #0049A6;
+	text-shadow: 0 0 3px white;
+}
+.section-main h1 > .liveCalendar > div:nth-child(2) {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0;
+	animation: calendarAnim 2s 1s forwards ease-in;
+	transform-origin: 0 3px;
+}
+.section-main h1 > .liveCalendar > div {
+	background-image: url('../images/counter.png');
+	background-size: 100% auto;
+	padding-top: 50%;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 110px;
+}
+
+@keyframes calendarAnim {
+	0% {
+		transform: rotateX(0deg);
+		opacity: 1;
+	}
+	99% {
+		transform: rotateX(-270deg);
+		opacity: 1;
+	}
+	100% {
+		transform: rotateX(-270deg);
+		opacity: 0;
+	}
 }
 
 .section-main h1 > div > span {
 	 font-size: 25px;
-	 color: #FD9C00;
-
  }
 
 .section-main p {
@@ -685,7 +725,17 @@ header {
 }
 
 .ornamented-border {
-	border: 10px solid red;
+	background-image:  url('../images/clipart/snowflakes_violet_horizontal_bg.png');
+	animation: snowflakes 15s infinite linear, accentShadow 2s infinite linear alternate;
+}
+
+@keyframes accentShadow {
+	from {
+		box-shadow: 0 0 10px 10px #FD9C00;
+	}
+	to {
+		box-shadow: 0 0 10px 10px transparent;
+	}
 }
 
 .daily-program  .circle-time {

@@ -314,6 +314,10 @@ and (max-device-width : 479px) {
         display: none;
     }
 
+    .section-main h1 > .liveCalendar {
+        display: none;
+    }
+
     .daily-program ul li p {
         font-size: 13px;
     }
