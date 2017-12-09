@@ -34,6 +34,10 @@ and (max-device-width : 1279px) {
     	padding: 15px 0;
     }
 
+    .vacant {
+        display: none;
+    }
+
     .what-points ul {
         padding-bottom: 200px;
     }
@@ -56,8 +60,8 @@ and (max-device-width : 1279px) {
 
     .daily-block-footer img {
         position: absolute;
-        top: -85px;
-        right: 55px;
+        top: -10px;
+        right: 60px;
         width: 70px;
     }
 
@@ -102,7 +106,7 @@ and (max-device-width : 1279px) {
     }
 
     .phone-button-slide ul li {
-        padding: 10px 9px 10px 15px;
+        padding: 10px 5px 10px 15px;
     }
 
 }

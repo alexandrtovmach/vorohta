@@ -77,6 +77,20 @@ and (max-device-width : 1023px) {
         margin-right: 10px;
     }
 
+    .section-promise ul li:nth-child(12) .icon-image img {
+        width: 45px;
+        top: -5px;
+        right: 20px;
+        height: 45px;
+    }
+
+    .section-promise ul li .icon-image img {
+        width: 40px;
+        top: -5px;
+        right: 20px;
+        height: 35px;
+    }
+
     .section-main p {
         font-size: 15px;
     }
@@ -84,6 +98,10 @@ and (max-device-width : 1023px) {
     .title {
     	padding: 15px 0;
         font-size: 34px;
+    }
+
+    .vacant {
+        display: none;
     }
 
     .firstPart {
@@ -140,10 +158,6 @@ and (max-device-width : 1023px) {
         width: 107px;
     }
 
-    .what-points ul {
-        padding-bottom: 161px;
-    }
-
     .included ul {
         padding-bottom: 30px;
     }
@@ -175,7 +189,7 @@ and (max-device-width : 1023px) {
 
     .daily-block-footer img {
         position: absolute;
-        top: -85px;
+        top: -10px;
         right: 45px;
         width: 70px;
     }
@@ -273,7 +287,7 @@ and (max-device-width : 1023px) {
     }
 
     .phone-button-slide ul li {
-        padding: 10px 9px 10px 15px;
+        padding: 10px 5px 10px 15px;
     }
 
 }

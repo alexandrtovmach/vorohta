@@ -18,6 +18,10 @@ and (min-device-width : 1651px)  {
     	padding: 15px 0;
     }
 
+    .vacant {
+        display: none;
+    }
+
     .section-main p {
        font-size: 23px;
     }
@@ -44,6 +48,13 @@ and (min-device-width : 1651px)  {
 
     .daily-block-footer h3 {
     	width: 50%;
+    }
+
+    .daily-block-footer img {
+        position: absolute;
+        top: -10px;
+        right: 110px;
+        width: 70px;
     }
 
     .Order-button {

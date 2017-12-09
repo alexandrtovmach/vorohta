@@ -6,6 +6,10 @@ and (max-device-width : 1650px) {
     	padding: 15px 0;
     }
 
+    .vacant {
+        display: none;
+    }
+
     .what-points h2 {
     	padding: 18px 0;
     }
@@ -26,6 +30,13 @@ and (max-device-width : 1650px) {
     	width: 50%;
     }
 
+    .daily-block-footer img {
+        position: absolute;
+        top: -10px;
+        right: 75px;
+        width: 70px;
+    }
+
     .Order-button {
     	margin: 0;
     }
@@ -41,7 +52,7 @@ and (max-device-width : 1650px) {
     }
 
     .phone-button-slide ul li {
-        padding: 10px 8px 10px 15px;
+        padding: 10px 5px 10px 15px;
     }
 
 }
