@@ -232,6 +232,10 @@ and (max-device-width : 767px) {
         font-size: 30px;
     }
 
+    .what-points ul {
+        padding-bottom: 50px;
+    }
+
     .what-points ul li p {
         text-align: left;
     	font-size: 15px;
