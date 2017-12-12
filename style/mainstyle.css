@@ -967,8 +967,8 @@ header {
 .photo-collage div {
 	width: 100%;
 	height: 300px;
-	background-image: url('../images/bukovel.jpg');
-	background-size: contain;
+	background: url('../images/bukovel.jpg') no-repeat left, url('../images/back.jpg') no-repeat right, url('../images/back2.jpg') no-repeat center;
+	background-size: 34% 100%;
 }
 
 
@@ -1067,13 +1067,14 @@ footer {
 	font-size: 17px;
 	padding: 15px 30px;
 	background-color: #FD9C00;
+	color: rgba(0,0,0,0.8);
 }
 
 /*-------------css for  placeholder at the Footer-------------*/
-::-webkit-input-placeholder { font-size: 18px;color:grey;font-family: "Ubuntu";}
-::-moz-placeholder          { font-size: 18px;color:grey;font-family: "Ubuntu";}
-:-moz-placeholder           { font-size: 18px;color:grey;font-family: "Ubuntu";}
-:-ms-input-placeholder      { font-size: 18px;color:grey;font-family: "Ubuntu";}
+::-webkit-input-placeholder { font-size: 18px;color:rgba(0,0,0,0.8);font-family: "Ubuntu";}
+::-moz-placeholder          { font-size: 18px;color:rgba(0,0,0,0.8);font-family: "Ubuntu";}
+:-moz-placeholder           { font-size: 18px;color:rgba(0,0,0,0.8);font-family: "Ubuntu";}
+:-ms-input-placeholder      { font-size: 18px;color:rgba(0,0,0,0.8);font-family: "Ubuntu";}
 
 
 /*------------------MODAL WINDOWS  REGISTRATIONS-----------------------*/
