@@ -20,7 +20,7 @@ and (max-device-width : 767px) {
         display: none;
     }
 
-    .section-main h1 > .liveCalendar {
+     .liveCalendar {
         display: none;
     }
     
