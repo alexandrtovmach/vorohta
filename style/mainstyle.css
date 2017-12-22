@@ -691,6 +691,12 @@ header {
 	display: flex;
 	flex-direction: column;
 }
+.dayDate {
+	font-size: 18px;
+}
+.dayDate > div {
+	font-size: 14px;
+}
 
 
 /*-------------------daily-program ORNAMENT---------------------*/
